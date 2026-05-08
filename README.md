@@ -4,6 +4,20 @@ A locally deployed, fine-tuned AI assistant that helps construction procurement 
 
 ---
 
+## The Three-Minute Pitch
+
+**BING:** Construction is one of the least digitised industries on earth. It also has the most expensive mistakes. Seventy-three percent of major construction cost overruns trace directly to procurement failure — wrong supplier, missed certification, late delivery. And the industry's answer to this problem is still, in 2026, a spreadsheet.
+
+**What:** We build AI procurement assistants for construction teams. Local, fine-tuned, on-premise. You give it a material specification; it gives back a ranked comparison of your qualified suppliers — price, delivery time, certifications, reliability, environmental performance — with a full reasoning trail and a report ready for approval. In minutes, not hours. On your infrastructure, not ours. Trained on your data, not a generic model.
+
+**How:** We deploy on the client's own server. We connect to their existing ERP or procurement system. We use their procurement history — suppliers they've worked with, materials they've bought, decisions they've made — to fine-tune a local AI model. That model becomes their institutional memory: searchable, consistent, and smarter with every procurement cycle. When a procurement manager leaves, the knowledge doesn't leave with them. When a new buyer starts, they're productive in days, not months. When an auditor asks why a decision was made, the answer is already documented.
+
+**Are you sure:** The average construction procurement manager spends 11 hours a week on tasks our tool automates — the equivalent of €49,500 a year per person in lost productive time. Eighty-eight percent of contractors still track materials in spreadsheets. The Dutch construction software market is growing at 9% a year. And the regulatory pressure — EU CPR 2024, Aanbestedingswet, CSRD Scope 3 — is turning procurement documentation from a good practice into a legal obligation. The timing is not incidental.
+
+**Can you do it:** We are a Windesheim-anchored systems builder, a production AI engineer with a PhD from VU Amsterdam, a COO who doubled a scaling startup's revenue six years running, a civil engineering professor from the University of Belgrade, and the HPE lead who has been the Netherlands' local government technology contact for 19 years. Our first target markets are construction companies in the Netherlands — fastest sales cycle, clearest ROI — and Dutch municipalities — largest compliance driver, highest replication potential. We are grant-eligible, research-anchored, and close to a first paid pilot. We are not starting from zero.
+
+---
+
 ## The Problem
 
 Construction procurement teams waste hours every week digging through emails, Excel sheets, and supplier portals just to compare a handful of quotes. Certification tracking is manual. Supplier knowledge lives in one person's head. And when a decision gets questioned, the paper trail barely exists.
@@ -36,9 +50,11 @@ A fine-tuned AI procurement assistant, deployed on the client's own infrastructu
 
 ## Business Model
 
-- **Paid pilot** → setup and fine-tuning fee → **monthly subscription**
-- Support, maintenance, and retraining contracts
+- **Paid pilot** → **implementation fee** (integration, fine-tuning, deployment, handover — client owns everything)
+- **Annual maintenance contract** (optional, recurring) — software updates and support SLA
+- **Retraining engagements** (project-based, client-initiated) — model refresh as procurement data grows
 - Research and grant funding track via university partnerships (Windesheim, Belgrade)
+- Managed service subscription available as alternative tier for clients without local IT infrastructure
 
 ---
 
@@ -48,8 +64,8 @@ A fine-tuned AI procurement assistant, deployed on the client's own infrastructu
 |---|---|
 | SAM — Netherlands (Segments A + B) | ~€20M/year |
 | TAM — EU-wide | ~€710M/year |
-| Target ARR by Year 3 | €750K–1M |
-| Target ARR by Year 5 | €1.4–1.9M |
+| Target revenue by Year 3 | ~€1M |
+| Target revenue by Year 5 | €1.4–1.9M |
 
 ---
 

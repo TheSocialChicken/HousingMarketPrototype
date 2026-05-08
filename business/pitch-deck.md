@@ -163,28 +163,36 @@ Once we have reference clients in the Netherlands, the doors to Belgium, Germany
 ## Slide 7 — Business Model (A)
 
 **Screen headline:**
-> "Clients pay to come in. They don't leave."
+> "We deliver. They own. We're available when needed."
 
-**Revenue per client (blended):**
+**Revenue per client:**
 
 | | Construction co. | Municipality |
 |---|---|---|
-| Setup / fine-tuning (one-time) | €19,000 | €18,000 |
-| Annual subscription | €34,000 | €39,000 |
-| Year 1 deal value | €53,000 | €57,000 |
+| Implementation (one-time) | €55,000 | €58,000 |
+| Annual maintenance (optional) | €8,000 | €9,000 |
+| Retraining engagement (as needed) | €12,000 | €12,500 |
+
+No subscription. No platform dependency. No ongoing permission to use.
+
+**Alternative:** Managed service tier for clients without IT infrastructure to self-host — higher cost, less control, client's choice.
 
 **Key metrics:**
-- LTV : CAC = **6.4×**
-- Payback period: **< 12 months**
-- Churn: **< 5%** (fine-tuned model = institutional memory they'd lose by leaving)
+- LTV : CAC = **5.6×**
+- Payback period: **< 6 months** (implementation fee alone is 2.3× CAC)
+- Churn: **< 5%** (fine-tuned model = their institutional knowledge; leaving means losing it)
 
-**Revenue path:** Workshop → Paid pilot → Setup fee → Subscription → Retraining contracts
+**Revenue path:** Workshop → Paid pilot → Implementation → Maintenance contract → Retraining on demand
 
 **Speaker notes:**
 
-"The setup fee covers our acquisition cost. The subscription is recurring. The fine-tuned model is the lock-in — switching to a competitor means losing every decision the AI has learned from. Clients don't do that.
+"The standard model has no subscription. We build the system, we deploy it on their infrastructure, we hand it over. They own the fine-tuned model, the integration, everything. We get nothing for it to keep running.
 
-We also run procurement simulation workshops before the product is live. Revenue from day one. And those workshops are our best customer discovery channel — we learn exactly what to build while they pay us to run them."
+What keeps us in the relationship is the maintenance contract — software updates, support SLA — and retraining engagements when they've accumulated enough new data to warrant a model refresh. Both are optional. Both are genuinely valuable. Neither is a condition for the system to function.
+
+This is not SaaS. It's how this market already buys enterprise software — ERP implementations, IT deployments, consulting engagements. We fit into that procurement pattern naturally.
+
+We also run procurement simulation workshops before the product is live. Revenue from day one. And those workshops are our best customer discovery channel."
 
 ---
 
@@ -193,29 +201,31 @@ We also run procurement simulation workshops before the product is live. Revenue
 ## Slide 8 — The Numbers (A)
 
 **Screen headline:**
-> "Profitable in Year 2. €876K ARR by Year 3. No large equity round required."
+> "Profitable from Year 1. €192K contracted maintenance base by Year 3. No large equity round required."
 
 **Table:**
 
 | | Year 1 | Year 2 | Year 3 |
 |---|:---:|:---:|:---:|
 | Active clients | 5 | 14 | 23 |
-| ARR | €180K | €501K | €876K |
-| Total revenue | €223K | €615K | €1.08M |
-| Net result | -€28K | **+€66K** | **+€358K** |
+| Contracted maintenance base | €42K/yr | €117K/yr | €192K/yr |
+| Total revenue | €321K | €697K | €1.02M |
+| Net result | **+€70K** | **+€148K** | **+€298K** |
 
 **Grant pipeline (non-dilutive):**
 - MIT R&D Samenwerkingsprojecten AI — applying before May 26 — up to **€200K**
 - KIEM Arbeidsbesparende AI — Sep 2026 — **€40K**
 - RAAK-PRO — **€700K** over 4 years (next round)
 
-*MIT R&D grant alone makes Year 1 cash-positive.*
+*Base case is profitable without the grant. MIT R&D triples Year 1 closing cash.*
 
 **Speaker notes:**
 
-"We break even mid-Year 2 with 14 clients. Year 3 we're at 33% net margin.
+"This model is profitable from Year 1, not Year 2. The reason is simple: implementation fees are front-loaded. We earn the bulk of our revenue per client when we deliver the system, not spread over a subscription.
 
-The grant track is parallel and non-dilutive. Windesheim gives us institutional credibility that most startups spend years trying to build. The MIT R&D AI application is in — deadline is May 26. If it comes through, Year 1 is profitable.
+The contracted maintenance base — €42K/year from Year 1 clients, growing to €192K/year by Year 3 — is the recurring revenue floor. It grows with every implementation, even if we sign no new clients in a given quarter.
+
+The grant track is parallel and non-dilutive. The base case is profitable without it. If MIT R&D comes through, Year 1 closing cash reaches €195K and Year 2 becomes a comfortable foundation for EU expansion.
 
 This business does not need a large equity round to reach sustainability. We're here because the right investor at this stage accelerates the EU expansion timeline — not because we need to keep the lights on."
 

@@ -85,16 +85,17 @@
 | **Research and innovation funding (grants)** | Pre-product / early | Institutional | Separate track — RAAK-PRO, Horizon Europe, NWO-KIEM. Requires named industry partner (Züblin is a candidate) + Windesheim. Not operating revenue. |
 
 ### Product (once pilot is running)
-| Stream | Stage | Type |
-|--------|-------|------|
-| Paid pilot | Early | One-time |
-| Setup and implementation fee | Early / growth | One-time |
-| Local model fine-tuning and deployment | Growth | Project-based |
-| Monthly platform subscription | Growth | Recurring |
-| Support and maintenance contract | Growth | Recurring |
-| Model update / retraining service | Growth | Recurring |
-| Custom integration work (ERP, procurement systems) | Growth | Project-based |
-| Procurement data cleanup service | Any | Project-based |
+| Stream | Stage | Type | Notes |
+|--------|-------|------|-------|
+| Paid pilot | Early | One-time | First engagement — scoped project, proves value before full implementation |
+| **Implementation fee** | Early / growth | One-time | Full delivery: ERP integration, data ingestion, fine-tuning, deployment, handover — client owns everything |
+| **Annual maintenance contract** | Growth | Recurring (optional) | Software updates, support SLA, minor iterations — ~15% of implementation fee; client-initiated |
+| **Retraining engagement** | Growth | Project-based | Full model refresh when client data has grown or categories expand — client-initiated |
+| Custom integration work | Any | Project-based | ERP connectors, procurement system adapters beyond standard scope |
+| Procurement data cleanup service | Any | Project-based | Pre-implementation data structuring for clients with messy procurement history |
+| **Managed service (alternative tier)** | Growth | Recurring | Hosted subscription for clients without IT infrastructure to self-host — higher cost, more legal complexity; not the default |
+
+> **No subscription in the default model.** The client owns the deployed system completely. Maintenance and retraining are purchased because they are genuinely useful — not because they are required for the system to function. This removes vendor dependency, simplifies the legal profile (no data processing agreement needed), and fits how municipalities and construction companies already procure enterprise software: as implementations, not SaaS.
 
 > **Strategic note on workshops:** The simulation/workshop track is not just a cashflow bridge — it is the fastest path to deeply understanding the procurement workflow problem from the inside. Every workshop delivered is a customer discovery session. Clients who go through a workshop are warm leads for the pilot. Build the workshop programme as if it's a product in its own right.
 

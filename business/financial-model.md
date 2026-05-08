@@ -10,14 +10,14 @@
 
 | | Year 1 | Year 2 | Year 3 |
 |---|---:|---:|---:|
-| **Total revenue** | €223K | €615K | €1,077K |
+| **Total revenue** | €321K | €697K | €1,017K |
 | **Total costs** | €251K | €549K | €719K |
-| **Net result** | **-€28K** | **+€66K** | **+€358K** |
-| **ARR (end of year)** | €180K | €501K | €876K |
+| **Net result** | **+€70K** | **+€148K** | **+€298K** |
+| **Contracted maintenance base** | €42K/yr | €117K/yr | €192K/yr |
 | **Active clients (end of year)** | 5 | 14 | 23 |
-| **Cash position** | €22K | €88K | €446K |
+| **Cash position** | €120K | €268K | €566K |
 
-> **MIT R&D AI upside:** If the grant (deadline May 26) is awarded, Year 1 flips to **+€47K** and Year 2 to **+€141K**. See scenario table at the bottom.
+> **MIT R&D AI upside:** If the grant (deadline May 26) is awarded, Year 1 cash triples to **€195K** and Year 2 to **€418K**. See scenario table at the bottom.
 
 ---
 
@@ -27,27 +27,33 @@
 
 | Stream | Description | Timing |
 |---|---|---|
-| **Setup / onboarding fee** | One-time per new client: fine-tuning, ERP integration, onboarding | Invoiced on contract signing |
-| **Annual subscription** | Recurring SaaS license: platform access, updates, support | Monthly or quarterly |
+| **Implementation fee** | One-time per client: ERP integration, data ingestion, fine-tuning, deployment, handover — client owns everything delivered | Invoiced on project completion |
+| **Annual maintenance contract** | Optional recurring: software updates, support SLA, minor model iterations — ~15% of implementation fee | Annual, client-initiated |
+| **Retraining engagement** | Project-based: full model refresh when client's procurement data has grown significantly or they want to extend to new categories | Per engagement, client-initiated |
 | **Workshop revenue** | Procurement simulation workshops (pre-product revenue + discovery) | Per event |
 | **Grant income** | Non-dilutive public R&D funding via university partnerships | Per grant agreement |
+| **Managed service (alternative tier)** | Hosted subscription for clients without IT infrastructure to self-host — higher cost, less control, client's choice | Monthly or quarterly |
+
+No subscription in the default model. The client owns the deployed system completely. Maintenance and retraining are purchased because they are genuinely useful, not because they are required for the system to function.
 
 ---
 
 ### Pricing assumptions
 
-> Sourced from market sizing document. To be validated with first pilot clients.
+> To be validated with first pilot clients.
 
-| Segment | Setup fee | Annual subscription | Yr 1 deal value |
+| Segment | Implementation fee | Annual maintenance | Retraining engagement |
 |---|---:|---:|---:|
-| Mid-size construction (50–249 employees) | €15,000 | €24,000 | €39,000 |
-| Large construction (250+ employees) | €25,000 | €48,000 | €73,000 |
-| Medium municipality (25k–100k) | €15,000 | €30,000 | €45,000 |
-| Large municipality (100k+) | €25,000 | €60,000 | €85,000 |
-| **Blended — construction** | **€19,000** | **€34,000** | **€53,000** |
-| **Blended — municipality** | **€18,000** | **€39,000** | **€57,000** |
+| Mid-size construction (50–249 employees) | €45,000 | €7,000 | €10,000 |
+| Large construction (250+ employees) | €70,000 | €10,500 | €15,000 |
+| Medium municipality (25k–100k) | €48,000 | €7,500 | €10,000 |
+| Large municipality (100k+) | €80,000 | €12,000 | €18,000 |
+| **Blended — construction** | **€55,000** | **€8,000** | **€12,000** |
+| **Blended — municipality** | **€58,000** | **€9,000** | **€12,500** |
 
 Mix assumption: construction 60% mid / 40% large; municipality 70% medium / 30% large.
+
+Maintenance rate: ~15% of implementation fee — standard for enterprise software.
 
 Workshop price: €10,000–12,000 per full-day session (10–15 participants).
 
@@ -63,9 +69,9 @@ Workshop price: €10,000–12,000 per full-day session (10–15 participants).
 | Churn (5% annual) | — | 0 | 1 |
 | **Cumulative active clients** | **5** | **14** | **23** |
 
-Churn assumption: 5% annual (low — fine-tuned models and ERP integration create strong switching costs).
+Churn assumption: 5% annual (low — fine-tuned models and ERP integration create strong switching costs; client owns the model so departure means losing their own institutional knowledge).
 
-New client timing: assumed mid-year average (6-month subscription recognised in year of acquisition).
+Implementation fee invoiced on project completion — no mid-year proration needed.
 
 ---
 
@@ -75,42 +81,38 @@ New client timing: assumed mid-year average (6-month subscription recognised in 
 
 | Line | Calculation | Amount |
 |---|---|---:|
-| Construction setup fees | 3 × €19K | €57,000 |
-| Construction subscriptions (mid-year) | 3 × €34K × 0.5 | €51,000 |
-| Municipality setup fees | 2 × €18K | €36,000 |
-| Municipality subscriptions (mid-year) | 2 × €39K × 0.5 | €39,000 |
+| Construction implementation fees | 3 × €55K | €165,000 |
+| Municipality implementation fees | 2 × €58K | €116,000 |
 | Workshop revenue | 4 workshops × €10K | €40,000 |
 | Grant income (base case) | MIT R&D pending — not recognised | €0 |
-| **Year 1 Total** | | **€223,000** |
-| ARR at year-end | 3 × €34K + 2 × €39K | **€180,000** |
+| **Year 1 Total** | | **€321,000** |
+| Contracted maintenance going into Year 2 | 3 × €8K + 2 × €9K | **€42,000/yr** |
 
 #### Year 2
 
 | Line | Calculation | Amount |
 |---|---|---:|
-| Existing clients — full-year subscriptions | 3 × €34K + 2 × €39K | €180,000 |
-| New construction setup fees | 6 × €19K | €114,000 |
-| New construction subscriptions (mid-year) | 6 × €34K × 0.5 | €102,000 |
-| New municipality setup fees | 3 × €18K | €54,000 |
-| New municipality subscriptions (mid-year) | 3 × €39K × 0.5 | €58,500 |
+| Existing client maintenance | 3 × €8K + 2 × €9K | €42,000 |
+| Retraining engagements (3 of 5 existing clients, 60%) | 2 × €12K + 1 × €12.5K | €36,500 |
+| New construction implementation | 6 × €56K (2% price increase) | €336,000 |
+| New municipality implementation | 3 × €59K | €177,000 |
 | Workshop revenue | 6 workshops × €11K | €66,000 |
 | Grant income — KIEM Arbeidsbesparende AI | Approved Q4 2026, cash in 2027 | €40,000 |
-| **Year 2 Total** | | **€614,500 ≈ €615,000** |
-| ARR at year-end | 9 × €34K + 5 × €39K | **€501,000** |
+| **Year 2 Total** | | **€697,500 ≈ €697,000** |
+| Contracted maintenance going into Year 3 | 9 × €8K + 5 × €9K | **€117,000/yr** |
 
 #### Year 3
 
 | Line | Calculation | Amount |
 |---|---|---:|
-| Existing 13 clients — full-year subscriptions | 8 × €34K + 5 × €39K (1 churned) | €467,000 |
-| New construction setup fees | 7 × €20K (5% price increase) | €140,000 |
-| New construction subscriptions (mid-year) | 7 × €36K × 0.5 | €126,000 |
-| New municipality setup fees | 3 × €20K | €60,000 |
-| New municipality subscriptions (mid-year) | 3 × €42K × 0.5 | €63,000 |
+| Existing client maintenance (13 clients — 8 construction + 5 municipality, 1 churned) | 8 × €8K + 5 × €9K | €109,000 |
+| Retraining engagements (9 of 13 existing clients, 70%) | avg €12K | €108,000 |
+| New construction implementation | 7 × €57K (2% price increase) | €399,000 |
+| New municipality implementation | 3 × €60K | €180,000 |
 | Workshop revenue | 8 workshops × €12K | €96,000 |
 | Grant income — RAAK-PRO Year 1 | €700K over 4 years = ~€125K/year (if awarded) | €125,000 |
-| **Year 3 Total** | | **€1,077,000** |
-| ARR at year-end | 15 × €36K + 8 × €42K | **€876,000** |
+| **Year 3 Total** | | **€1,017,000** |
+| Contracted maintenance going into Year 4 | 15 × €8K + 8 × €9K | **€192,000/yr** |
 
 ---
 
@@ -213,18 +215,18 @@ One ML/fine-tuning engineer added to reduce Milan's delivery bottleneck.
 | | Year 1 | Year 2 | Year 3 |
 |---|---:|---:|---:|
 | **Revenue** | | | |
-| Commercial revenue (excl. grants) | €223,000 | €575,000 | €952,000 |
+| Commercial revenue (excl. grants) | €321,000 | €657,500 | €892,000 |
 | Grant income | €0 | €40,000 | €125,000 |
-| **Total revenue** | **€223,000** | **€615,000** | **€1,077,000** |
+| **Total revenue** | **€321,000** | **€697,500** | **€1,017,000** |
 | **Costs** | | | |
 | Personnel | €176,800 | €449,000 | €578,400 |
 | Infrastructure | €20,000 | €28,000 | €40,000 |
 | Operations | €54,000 | €72,000 | €101,000 |
 | **Total costs** | **€250,800** | **€549,000** | **€719,400** |
-| **Net result** | **-€27,800** | **+€66,000** | **+€357,600** |
-| Cumulative net | -€28K | +€38K | +€396K |
+| **Net result** | **+€70,200** | **+€148,500** | **+€297,600** |
+| Cumulative net | +€70K | +€218K | +€516K |
 
-Break-even reached: mid-Year 2 (~7–8 clients on full subscriptions).
+Break-even reached: Year 1 (front-loaded implementation fees cover costs from the first client cohort).
 
 ---
 
@@ -236,14 +238,14 @@ Assumed initial working capital: **€50,000** (founders' own contribution / fri
 
 | | Year 1 | Year 2 | Year 3 |
 |---|---:|---:|---:|
-| Opening cash | €50,000 | €22,200 | €88,200 |
-| Net result | -€27,800 | +€66,000 | +€357,600 |
-| **Closing cash** | **€22,200** | **€88,200** | **€445,800** |
+| Opening cash | €50,000 | €120,200 | €268,700 |
+| Net result | +€70,200 | +€148,500 | +€297,600 |
+| **Closing cash** | **€120,200** | **€268,700** | **€566,300** |
 
-Year 1 cash is tight. The model holds, but only if:
-1. Grant income (MIT R&D) materialises in Q3 2026 — see upside scenario below
-2. Workshop revenue starts in Q1 (workshops require no product, only team)
-3. First client contracts signed by Q2 2026
+Year 1 cash is healthy in the base case. The model holds if:
+1. Workshop revenue starts in Q1 (workshops require no product, only team)
+2. First client implementations complete and invoiced by Q3 2026
+3. The MIT R&D grant (if awarded) adds further buffer — see upside scenario below
 
 ### Funding options if needed
 
@@ -262,25 +264,25 @@ Year 1 cash is tight. The model holds, but only if:
 
 | | Year 1 | Year 2 | Year 3 |
 |---|---:|---:|---:|
-| **Base case net result** | -€28K | +€66K | +€358K |
-| MIT R&D Year 1 cash (+€75K) | +€47K | — | — |
-| MIT R&D Year 2 cash (+€75K) | — | +€141K | — |
-| **Upside net result** | **+€47K** | **+€141K** | **+€358K** |
-| **Upside closing cash** | **€97K** | **€238K** | **€596K** |
+| **Base case net result** | +€70K | +€148K | +€298K |
+| MIT R&D Year 1 cash (+€75K) | +€145K | — | — |
+| MIT R&D Year 2 cash (+€75K) | — | +€223K | — |
+| **Upside net result** | **+€145K** | **+€223K** | **+€298K** |
+| **Upside closing cash** | **€195K** | **€418K** | **€716K** |
 
-MIT R&D grant alone transforms the model from a near-break-even Year 1 to profitable from day one.
+MIT R&D grant strengthens an already-profitable Year 1 and provides a comfortable runway buffer for EU expansion in Year 2.
 
 ### Conservative case (slow client acquisition — 3 clients Year 1)
 
 | | Year 1 | Year 2 | Year 3 |
 |---|---:|---:|---:|
-| Clients acquired | 3 | 7 | 9 |
-| Revenue | €138K | €450K | €790K |
+| Clients acquired | 3 | 5 | 5 |
+| Revenue | €208K | €430K | €643K |
 | Costs (same) | €251K | €549K | €719K |
-| Net result | -€113K | -€99K | +€71K |
-| Cash (€50K start) | -€63K | -€162K | -€91K |
+| Net result | -€43K | -€119K | -€76K |
+| Cash (€50K start) | €7K | -€112K | -€188K |
 
-**Conclusion:** The conservative case requires either the MIT R&D grant or an angel bridge of €150–200K to survive to Year 3 profitability. This is the risk scenario to avoid — it underscores the urgency of the May 26 grant deadline and early client acquisition.
+**Conclusion:** The conservative case breaks down without the grant or angel bridge. This is the key structural difference from a subscription model: without subscriptions from existing clients, revenue depends heavily on new implementations each year. Existing clients in Year 2 generate only €42K in maintenance (vs €180K in subscriptions under the old model). This underscores the urgency of the May 26 grant deadline and landing the first 5 clients in Year 1.
 
 ---
 
@@ -289,15 +291,16 @@ MIT R&D grant alone transforms the model from a near-break-even Year 1 to profit
 | Metric | Value | Notes |
 |---|---|---|
 | **CAC (fully loaded)** | ~€25,000 | Gerard's time + Christiaan sales time + travel per deal |
-| **Average Year 1 deal value** | ~€54,000 | €18.5K setup + €36K blended sub |
-| **Payback period** | < 12 months | Setup fee alone covers ~75% of CAC |
-| **LTV (5-year, 5% churn)** | ~€160,000 | Blended sub × 4.5 effective years |
-| **LTV : CAC** | **~6.4×** | Healthy for B2B enterprise SaaS |
-| **Gross margin (ex-personnel)** | ~85% | Revenue minus infrastructure per client |
-| **Net margin Year 3** | 33% | |
-| **ARR growth Y1→Y2** | +178% | |
-| **ARR growth Y2→Y3** | +75% | |
-| **Monthly break-even (Year 2 cost base)** | ~€45,750/month | Reached at ~7–8 active subscription clients |
+| **Average implementation fee (blended)** | ~€57,000 | Higher than old setup fee; covers full delivery and handover |
+| **Payback period** | < 6 months | Implementation fee alone is 2.3× CAC |
+| **LTV (5-year, 5% churn)** | ~€139,000 | Implementation + 4 years maintenance + 3 retraining engagements |
+| **LTV : CAC** | **~5.6×** | Healthy for professional services B2B |
+| **Annual maintenance per client** | €8–9K | ~15% of implementation fee; standard enterprise maintenance rate |
+| **Contracted maintenance base (Year 3)** | €192K/yr | Recurring floor even with zero new clients in Year 4 |
+| **Gross margin (ex-personnel)** | ~90% | No cloud/platform cost — system runs on client infrastructure |
+| **Net margin Year 3** | 29% | |
+| **Revenue growth Y1→Y2** | +117% | |
+| **Revenue growth Y2→Y3** | +46% | |
 
 ---
 
@@ -306,10 +309,11 @@ MIT R&D grant alone transforms the model from a near-break-even Year 1 to profit
 | Assumption | Impact | How to validate |
 |---|---|---|
 | 5 new clients acquired in Year 1 | HIGH — drives Year 1 revenue and cash | First letters of intent by Q2 2026 |
-| Blended subscription €34K (construction) / €39K (municipality) | HIGH | Validate in first pilot pricing negotiations |
-| Founders accept reduced salary Year 1 (bridged by existing income) | HIGH — makes Year 1 near-break-even possible | Internal co-founder agreement |
-| MIT R&D AI grant awarded (upside) | HIGH — transforms Year 1 cash position | Submit before May 26, 2026 |
-| 5% annual churn | MEDIUM | Track from Year 2 onwards; fine-tuning creates lock-in |
+| Blended implementation fee €55K (construction) / €58K (municipality) | HIGH | Validate in first pilot pricing negotiations |
+| 60–70% of existing clients take retraining annually (Year 2+) | HIGH — retraining is a significant Year 2–3 revenue line | Validate with Year 1 clients |
+| Founders accept reduced salary Year 1 (bridged by existing income) | HIGH — keeps Year 1 profitable despite lean team | Internal co-founder agreement |
+| MIT R&D AI grant awarded (upside) | MEDIUM — base case is already profitable; grant accelerates EU path | Submit before May 26, 2026 |
+| 5% annual churn | MEDIUM | Track from Year 2 onwards; fine-tuned model creates lock-in |
 | 4 workshops × €10K in Year 1 | MEDIUM — €40K revenue, no product needed | Pilot with Windesheim network and construction industry events |
 | 30% employer contribution (NL) | LOW — standard calculation | Confirmed by Dutch payroll rules |
 | RAAK-PRO awarded Year 3 | MEDIUM — €125K/year grant | Contingent on KIEM output + consortium readiness |
@@ -318,10 +322,12 @@ MIT R&D grant alone transforms the model from a near-break-even Year 1 to profit
 
 ## What This Model Says
 
-**The business is self-funding from Year 2 if the team executes on 5 clients in Year 1.**
+**The business is profitable from Year 1 if the team executes on 5 clients.**
 
-The lean Year 1 structure (founders at reduced FTE, Windesheim embedded, co-working) keeps the burn low enough that 5 clients generate near-break-even cash. The grant track (MIT R&D → KIEM → RAAK-PRO) is not required for survival — but it accelerates the path and provides meaningful runway buffer.
+Shifting from subscription to implementation + maintenance + retraining front-loads revenue. The bulk of what a client pays arrives when the system is delivered, not spread over 12 months of SaaS billing. Five implementations at blended €57K generates more Year 1 cash than the subscription model produced — without requiring a recurring payment relationship.
 
-Year 3 at €358K net profit on €1.08M revenue is a healthy, fundable business with a clear EU expansion story.
+The tradeoff is real: existing clients generate €42K/year in maintenance (Year 2) rather than €180K in subscriptions. The model is more sensitive to new client acquisition pace. A slow Year 1 is harder to recover from than in the subscription version. That is why the first 5 clients and the MIT R&D grant are the Year 1 priorities — not because survival depends on them, but because the conservative case shows what happens without them.
+
+Year 3 at €298K net profit on €1.02M revenue with €192K/year in contracted maintenance is a fundable, scalable business with no client dependency problems and a clean legal profile. The EU expansion story is the same.
 
 **The single highest-leverage action right now: submit the MIT R&D AI grant before May 26.**
