@@ -7,14 +7,14 @@
 
 ## The Team at a Glance
 
-| | Christiaan Verhoef | Dr. Milan Jelisavčić | Kirsten Coppoolse | Dr. Nina Gluhović |
-|---|---|---|---|---|
-| **Role** | CEO / Partnerships | CTO / AI Lead | COO / Operations | Domain Expert / Research |
-| **Location** | Baarn, NL | Amsterdam, NL | Baarn, NL | Belgrade, Serbia |
-| **Core** | Supply chain, AI infra, Windesheim anchor | PhD AI/Robotics, production ML | COO, startup scaling | PhD Structural Engineering, Belgrade University |
-| **Prior link** | — | Belgrade University MSc | Worked together at Open Food Chain + inblock.io | Belgrade University academic partner |
+| | Christiaan Verhoef | Dr. Milan Jelisavčić | Kirsten Coppoolse | Dr. Nina Gluhović | Gerard Tunteler |
+|---|---|---|---|---|---|
+| **Role** | CEO / Partnerships | CTO / AI Lead | COO / Operations | Domain Expert / Research | Head of Government Sales |
+| **Location** | Baarn, NL | Amsterdam, NL | Baarn, NL | Belgrade, Serbia | Amstelveen, NL |
+| **Core** | Supply chain, AI infra, Windesheim anchor | PhD AI/Robotics, production ML | COO, startup scaling | PhD Structural Engineering, Belgrade University | 32 years HPE, 19 years NL local government lead |
+| **Prior link** | — | Belgrade University MSc | Open Food Chain + inblock.io | Belgrade University academic partner | HPE Roundtable for Municipalities |
 
-> This is not a cold team. Christiaan and Kirsten have worked together before. Milan and Nina both connect through the University of Belgrade — he holds a MSc from there; she is faculty. Four people, two institutional anchors (Windesheim NL + Belgrade Serbia), zero unknown quantities.
+> This is not a cold team. Christiaan and Kirsten have worked together before. Milan and Nina connect through the University of Belgrade. Gerard brings 19 years of direct relationships with Dutch municipalities — including the HPE Roundtable he founded. Five people, two institutional anchors (Windesheim NL + Belgrade Serbia), and a direct line into every municipality in the Netherlands.
 
 ---
 
@@ -138,37 +138,85 @@
 
 ---
 
-## Remaining Gap: Enterprise B2B Sales
+### Gerard Tunteler — Head of Government Sales
 
-With four people on the team, three of the four original gaps are now filled outright, and the fourth (construction procurement workflows) will be addressed by the first pilot client as a co-creator.
+**Current role:** Local Government Lead Netherlands @ Hewlett Packard Enterprise (January 2007 – present, 19 years)
 
-**The one remaining structural gap is dedicated enterprise B2B sales.**
+**Also:** Teamleader & Account Manager Lokale Overheid @ HPE (2010 – present) · Enterprise Account Manager Lokale Overheid @ HPE (2009–2010) · 32 years total at HP / HPE
 
-The team can get through the first 3–5 pilots via the Windesheim network, Value Chain Hackers, and Nina's engineering contacts. Beyond that, a structured outbound sales motion is required.
+**Education:** Bachelor in Economics, Hogeschool voor Economische Studies Amsterdam (1989–1992)
 
-**Options:**
-- **Sales hire in Year 1** — use early revenue or grant funding once the first pilot proves value
-- **Channel partner** — an ERP integrator or procurement consultancy who sells the product as part of their offering; reduces need for an early direct sales hire
-- **Sales co-founder** — if someone in the network fits, bring them in on equity before the commercial phase begins
+| Capability | Relevance | Evidence |
+|---|---|---|
+| **Direct access to Dutch municipalities** | Critical | HPE's Local Government Lead for the Netherlands for 19 years. Relationships with IT, procurement, and management decision-makers across all 342 Dutch municipalities. |
+| **HPE Roundtable for Municipalities** | Critical | *Founder* of the HPE Ronde Tafel voor Gemeenten — a trusted peer network run for and by Dutch municipalities. This is a ready-made channel to introduce the product to dozens of municipalities simultaneously, with credibility already established. |
+| **Enterprise solution sales** | Critical | "Responsible for business development, enterprise solution sales and developing business for and with our strategic partners in local government." 19 years of closing enterprise deals in the public sector. |
+| **Local/on-premise infrastructure sales** | High | HPE sells on-premise hardware and hybrid cloud. He has spent decades selling sovereign IT infrastructure to municipalities — exactly the deployment model our product uses. He knows how to have this conversation. |
+| **AI and digital transformation in government** | High | Headline: "steering you toward smarter, AI-powered futures." Certified in HPE hybrid cloud, compute ops management, and unified portfolio. He speaks the AI language municipalities are ready to hear. |
+| **Strategic partner development** | High | Deep experience developing business *with* strategic partners in local government. Relevant for ERP integrator and HPE channel partnerships. |
+| **Dutch government procurement dynamics** | High | Knows exactly how municipalities make IT procurement decisions, who the real decision-makers are, what budget cycles look like, and what blocks deals. |
+
+**His role:** Owns municipality sales pipeline, introductions through the HPE Ronde Tafel, government IT partnership development, and HPE channel strategy.
+
+**Gap filled:** Gap 3 — Enterprise B2B Sales ✅ — and specifically for Segment B (municipalities), the segment where the sales cycle was the biggest concern.
+
+**Note on current employment:** Gerard is currently employed full-time at HPE. His involvement should be scoped carefully — as an advisor, a strategic partner, or a future co-founder depending on his appetite and HPE's position. The HPE Ronde Tafel network is a channel relationship, not a corporate HPE partnership.
+
+---
+
+## Updated Team Capability Matrix
+
+| Business need | Christiaan | Milan | Kirsten | Nina | Gerard | Status |
+|---|:---:|:---:|:---:|:---:|:---:|---|
+| AI fine-tuning pipeline | ⚠️ | ✅ | | | | ✅ Covered |
+| Local model deployment | ✅ | ✅ | | | | ✅ Covered |
+| Data pipelines & ERP integration | ⚠️ | ✅ | | | | ✅ Covered |
+| Edge/mobile deployment (roadmap) | | ✅ | | | | ✅ Covered |
+| Construction material specifications | | | | ✅ | | ✅ Covered |
+| Construction engineering domain | | | | ✅ | | ✅ Covered |
+| Supply chain & logistics domain | ✅ | | | | | ✅ Covered |
+| Customer discovery & workshops | ✅ | | ⚠️ | | | ✅ Strong |
+| Pilot onboarding & co-creation | ✅ | | ✅ | | | ✅ Strong |
+| Grant writing & university funding | ✅ | | ⚠️ | ✅ | | ✅ Strong |
+| Windesheim institutional anchor (NL) | ✅ | | | | | ✅ Covered |
+| Belgrade University anchor (Serbia) | ⚠️ | ✅ | | ✅ | | ✅ Covered |
+| Startup scaling & operations | | | ✅ | | | ✅ Covered |
+| Compliance & financial structure | | | ✅ | | | ✅ Covered |
+| Municipality sales & network | | | | | ✅ | ✅ Covered |
+| Government IT infrastructure sales | | | | | ✅ | ✅ Covered |
+| Enterprise B2B sales (construction co.) | ⚠️ | | | | ⚠️ | ⚠️ Partial — construction sector sales still via Windesheim network |
+| Construction procurement workflows | ⚠️ | | | ⚠️ | | ⚠️ Pilot client fills this |
+
+> ✅ = covered · ⚠️ = partial · blank = not applicable
+
+---
+
+## Remaining Gaps
+
+All four original structural gaps are now filled. Two smaller gaps remain:
+
+**1. Construction company sales (Segment A)** — Gerard's network is municipalities. The construction company pipeline runs through Christiaan's Windesheim and Value Chain Hackers network. A dedicated construction sector sales person or BD channel (e.g. an ERP integrator who serves construction firms) would strengthen Segment A beyond the first 5–10 pilots.
+
+**2. Construction procurement workflows (both segments)** — Nina covers the engineering and materials side. The actual day-to-day procurement workflow knowledge (how buyers work in practice, which ERP fields matter, what approval chains look like) comes from the first pilot clients through co-creation. This is by design — not a gap, but a validation task.
 
 ---
 
 ## What This Team Looks Like to an Investor or Grant Committee
 
 **Why this team can build it:**
-Milan's PhD-level AI background combined with production ML deployments at Stedin, bliq, and ABN AMRO means the technical differentiation (fine-tuned local model) is not aspirational — it's within reach of what this team has done before.
+Milan's PhD-level AI background combined with production ML deployments at Stedin, bliq, and ABN AMRO means the technical differentiation is not aspirational — it's within reach of what this team has done before.
 
 **Why this team can sell it:**
-Christiaan's embedded position at Windesheim and the co-creation model means the first pilot clients come through a trusted institutional channel, not cold outreach. Nina's civil engineering domain gives the team credibility in the room with construction engineers and procurement managers.
+Christiaan's Windesheim anchor brings construction company pilots through a trusted institutional channel. Gerard's 19-year municipality network and HPE Roundtable means Segment B doesn't need cold outreach — it needs introductions he can already make.
 
 **Why this team can scale it:**
-Kirsten has done exactly this job — COO from first employee to 20 people, doubling revenue every year. That track record is documented and verifiable.
+Kirsten has done this job before — COO from first employee to 20 people, doubling revenue every year for six years. That track record is documented and verifiable.
 
 **Why the institutional structure is real:**
-Both university partners are named individuals now, not placeholder organisations. Windesheim = Christiaan. University of Belgrade = Nina (faculty) + Milan (alumnus). This changes the weight of the academic partnership claim in any grant application.
+Both university partners are named individuals. Windesheim = Christiaan. University of Belgrade = Nina (faculty) + Milan (alumnus). The municipality channel is a named person with 19 years of the right relationships, not a plan.
 
 ---
 
 ## One-Line Team Pitch
 
-> A Windesheim-anchored systems builder, a production AI engineer with a Belgrade PhD, a COO who doubled a blockchain startup's revenue six years in a row, and a civil engineering professor from the University of Belgrade — building the AI procurement assistant that construction teams and municipalities actually need.
+> A Windesheim-anchored systems builder, a production AI engineer with a PhD from VU Amsterdam, a COO who doubled a blockchain startup's revenue six years running, a civil engineering professor from the University of Belgrade, and the HPE lead who has been selling AI infrastructure to Dutch municipalities for 19 years — building the procurement assistant that construction teams and governments actually need.
