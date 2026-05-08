@@ -118,6 +118,7 @@ Early stage — business planning phase complete. No product built yet.
 - [ ] Qualify Züblin (via Milan) as grant industry partner and potential pilot client — Dusko Stojanovic (Project Lead Bid Processing, ZÜBLIN Stuttgart) confirmed as insider contact
 - [ ] ⚠️ Submit MIT R&D AI grant before May 26, 2026 — needs SME co-applicant (not ZÜBLIN — too large)
 - [ ] Review and complete stakeholder map — see [stakeholder-map.md](business/stakeholder-map.md) for full context on each candidate (auditors/certification bodies, trucking/logistics, material manufacturers, CO₂ and sustainability bodies); decide role for each and create VPCs for confirmed new segments
+- [ ] Build basic website on GitHub Pages — public-facing presence with the general pitch, problem/solution, team, and contact
 
 ### Completed
 - [x] Competitive landscape analysis
