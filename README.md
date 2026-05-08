@@ -82,6 +82,7 @@ A fine-tuned AI procurement assistant, deployed on the client's own infrastructu
 | [Market Sizing](business/market-sizing.md) | TAM/SAM/SOM with sources |
 | [Team Canvas](business/team.md) | Full team profiles, capability matrix, and gap analysis |
 | [Grant Opportunities](business/grants.md) | MIT R&D AI (urgent), KIEM, RAAK-PRO, Horizon Europe — with fit analysis and recommended sequence |
+| [Competitive Landscape](business/competitive-landscape.md) | Player profiles, differentiation matrix, competitive white space, and risks |
 
 ---
 
