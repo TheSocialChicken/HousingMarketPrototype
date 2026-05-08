@@ -40,7 +40,7 @@ We build a procurement AI that your team actually uses instead of the spreadshee
 We spend two to four weeks integrating with your ERP and procurement history. We use that history to fine-tune a local AI model - so it already knows your suppliers, your preferred materials, your past decisions. From day one it's not a generic tool. It's your institutional knowledge, made searchable. The longer you use it, the smarter it gets.
 
 **Are you sure:**
-Seventy-three percent of construction cost overruns trace directly to procurement failures - wrong supplier, missed specification, late delivery. The industry still runs on spreadsheets - 88% of contractors do. When your best buyer leaves, that knowledge walks out the door. We've seen firms cut a three-hour procurement cycle to ten minutes. That's not a marginal improvement. That's a different way of working.
+McKinsey estimates the average large construction project runs 80% over budget, with procurement failures - wrong supplier, missed specification, late delivery - consistently among the primary drivers. [1] Construction is the second-least digitised industry on earth - most mid-size firms still run on spreadsheets. [1] When your best buyer leaves, that knowledge walks out the door. We've seen firms cut a three-hour procurement cycle to ten minutes. That's not a marginal improvement. That's a different way of working.
 
 **Can you do it:**
 We're led by a Windesheim supply chain researcher who has been running a local AI lab on this problem for two years, and a production ML engineer who has deployed models at Stedin, ABN AMRO, and bliq. We're not building this in theory. The infrastructure exists. The first pilots are the proof.
@@ -63,7 +63,7 @@ We deploy a procurement AI on your own infrastructure - not a cloud service, not
 We configure the system to your procurement policy - your weighting for price, quality, sustainability, SROI, and CPR environmental indicators. For every procurement you run through it, the AI scores each supplier against those criteria, flags any certification gaps, and produces a report that explains every score with a cited data source. That report is your audit trail. It's also what you show the council.
 
 **Are you sure:**
-Eighty percent of organisations lack structured tracking of delivery and compliance data - which means their audit trail is retroactive document chasing. The Aanbestedingswet and EU Directive 2014/24 don't accept "we meant to document it." CPR 2024 is now in force and operational requirements start January 2026 - your next procurement cycle will need to demonstrate CPR compliance at the product level. The tooling for that doesn't yet exist in the Dutch market.
+Eighty percent of organisations lack structured tracking of delivery and compliance data [4] - which means their audit trail is retroactive document chasing. The Aanbestedingswet and EU Directive 2014/24 don't accept "we meant to document it." CPR 2024 is now in force and operational requirements start January 2026 - your next procurement cycle will need to demonstrate CPR compliance at the product level. The tooling for that doesn't yet exist in the Dutch market.
 
 **Can you do it:**
 We have Gerard Tunteler - 19 years as HPE's Local Government Lead for the Netherlands, founder of the HPE Roundtable for Municipalities. He already has the relationships across all 342 Dutch municipalities. He's not a cold contact for us. He's a colleague. Windesheim University anchors the research side, which means a KIEM or RAAK-PRO grant can fund the pilot before a commercial contract exists.
@@ -86,7 +86,7 @@ We build that system. A fine-tuned AI procurement assistant that integrates with
 We connect to your ERP and extract your procurement history - supplier performance, material categories, contract outcomes. We use that data to fine-tune a local model that already reflects your supplier landscape. It deploys on your infrastructure, within your IT perimeter. Every team searches the same knowledge base. Every comparison report is generated with the same criteria. Every decision is documented the same way.
 
 **Are you sure:**
-At your scale, even a 5% efficiency improvement on procurement admin is worth more than the tool costs. More importantly: KPMG found that only 25% of public infrastructure projects complete within 10% of their deadline. The data consistently points to procurement and contracting as the primary cause. You're not immune to that pattern - but you have more data than anyone to fix it.
+At your scale, even a 5% efficiency improvement on procurement admin is worth more than the tool costs. More importantly: KPMG found that only 31% of infrastructure projects came within 10% of their original budget. [5] The data consistently points to procurement and contracting as the primary cause. You're not immune to that pattern - but you have more data than anyone to fix it.
 
 **Can you do it:**
 Sovereign IT deployment is not an add-on for us - it's the product. We have never built a version that sends your data to a third-party cloud. That's the design. On the research side, we're exploring a Windesheim research partnership route that would let a waterschap or infrastructure body participate as a named research partner - which is a lower-risk entry point than a full commercial procurement contract.
@@ -109,7 +109,7 @@ We give you a simple AI procurement tool that works with your existing project d
 You enter a material specification - what you need, what standards it has to meet, when you need it. The tool searches your supplier history and a broader qualified supplier database, returns a ranked list with prices, certifications, and delivery track records, and flags anything that looks risky. Your project managers make a faster, better-informed decision. You keep a record of it. Next project, that record is part of the baseline.
 
 **Are you sure:**
-Materials are 40% of your total project cost. Price volatility, wrong specifications, and unreliable suppliers are the three most common sources of budget overrun in residential development - and none of them require a procurement disaster to cost you money. They just require a slightly wrong assumption at the order stage, multiplied across a few projects a year. That's your margin.
+Materials are 40-55% of your total project cost. [6] Price volatility, wrong specifications, and unreliable suppliers are the three most common sources of budget overrun in residential development - and none of them require a procurement disaster to cost you money. They just require a slightly wrong assumption at the order stage, multiplied across a few projects a year. That's your margin.
 
 **Can you do it:**
 We offer a lighter hosted tier for this segment - you don't need your own infrastructure, you don't need an ERP, and you don't need a procurement department to run it. It's designed for exactly the team size you have. If you're already a customer of one of our construction company clients, there's a warm referral route that gets you set up in weeks.
@@ -238,7 +238,7 @@ The integration is our responsibility. What we're asking for is a data licensing
 ---
 
 **BING:**
-Construction is one of the least digitised industries on earth. It also has the most expensive mistakes. Seventy-three percent of major construction cost overruns trace directly to procurement failure - wrong supplier, missed certification, late delivery. And the industry's answer to this problem is still, in 2026, a spreadsheet.
+Construction is one of the least digitised industries on earth. [1] It also has the most expensive mistakes. McKinsey estimates the average large construction project runs 80% over budget, with procurement failures - wrong supplier, missed certification, late delivery - consistently among the primary drivers. [1] And construction remains the second-least digitised industry in the world - the answer is still, in 2026, a spreadsheet.
 
 **What:**
 We build AI procurement assistants for construction teams. Local, fine-tuned, on-premise. You give it a material specification; it gives back a ranked comparison of your qualified suppliers - price, delivery time, certifications, reliability, environmental performance - with a full reasoning trail and a report ready for approval. In minutes, not hours. On your infrastructure, not ours. Trained on your data, not a generic model.
@@ -247,7 +247,7 @@ We build AI procurement assistants for construction teams. Local, fine-tuned, on
 We deploy on the client's own server. We connect to their existing ERP or procurement system. We use their procurement history - suppliers they've worked with, materials they've bought, decisions they've made - to fine-tune a local AI model. That model becomes their institutional memory: searchable, consistent, and smarter with every procurement cycle. When a procurement manager leaves, the knowledge doesn't leave with them. When a new buyer starts, they're productive in days, not months. When an auditor asks why a decision was made, the answer is already documented.
 
 **Are you sure:**
-The average construction procurement manager spends 11 hours a week on tasks our tool automates - the equivalent of €49,500 a year per person in lost productive time. Eighty-eight percent of contractors still track materials in spreadsheets. The Dutch construction software market is growing at 9% a year. And the regulatory pressure - EU CPR 2024, Aanbestedingswet, CSRD Scope 3 - is turning procurement documentation from a good practice into a legal obligation. The timing is not incidental.
+The average construction procurement manager spends 11 hours a week on administrative procurement tasks - the equivalent of €49,500 a year per person in lost productive time. [2] Construction is the second-least digitised industry on earth - most mid-size firms still manage procurement in spreadsheets. [1] The European construction software market is growing at 9% a year. [3] And the regulatory pressure - EU CPR 2024, Aanbestedingswet, CSRD Scope 3 - is turning procurement documentation from a good practice into a legal obligation. The timing is not incidental.
 
 **Can you do it:**
 We are a Windesheim-anchored systems builder, a production AI engineer with a PhD from VU Amsterdam, a COO who doubled a scaling startup's revenue six years running, a civil engineering professor from the University of Belgrade, and the HPE lead who has been the Netherlands' local government technology contact for 19 years. Our first target markets are construction companies in the Netherlands - fastest sales cycle, clearest ROI - and Dutch municipalities - largest compliance driver, highest replication potential. We are grant-eligible, research-anchored, and close to a first paid pilot. We are not starting from zero.
@@ -256,3 +256,19 @@ We are a Windesheim-anchored systems builder, a production AI engineer with a Ph
 
 *See individual value proposition canvases in `value-propositions/` for full jobs/pains/gains mapping per segment.*
 *See `stakeholder-map.md` for open questions on unstudied stakeholder candidates.*
+
+---
+
+## Sources
+
+[1] McKinsey & Company, "Imagining Construction's Digital Future" (2016); McKinsey Global Institute Digitization Index - construction ranks second-to-last globally; average large project runs 80% over budget with procurement inefficiency among primary drivers.
+
+[2] Industry benchmark - procurement managers spend ~11 hours/week on administrative procurement tasks (PO generation, vendor coordination, supplier comparison). Derived cost assumes fully-loaded salary of a senior procurement manager in the Netherlands.
+
+[3] MarketDataForecast, "Europe Construction Software Market" (2026) - 8.86% CAGR for the European market.
+
+[4] Construction compliance industry research - approximately 80% of organisations lack structured tracking of delivery and compliance data.
+
+[5] KPMG Global Construction Survey - 31% of infrastructure projects came within 10% of their original budget.
+
+[6] Construction industry benchmarks - materials typically represent 40-55% of total project cost depending on project type (residential, commercial, infrastructure).
