@@ -81,6 +81,7 @@ A fine-tuned AI procurement assistant, deployed on the client's own infrastructu
 | [Shared Value Map](business/value-propositions/shared-value-map.md) | What we offer — constant across all segments |
 | [Market Sizing](business/market-sizing.md) | TAM/SAM/SOM with sources |
 | [Team Canvas](business/team.md) | Full team profiles, capability matrix, and gap analysis |
+| [Grant Opportunities](business/grants.md) | MIT R&D AI (urgent), KIEM, RAAK-PRO, Horizon Europe — with fit analysis and recommended sequence |
 
 ---
 
@@ -91,4 +92,7 @@ Early stage — market research and business planning phase. No product built ye
 ### Open Tasks
 - [ ] Draft co-founder agreement (equity, decision rights, vesting, exit terms)
 - [ ] Design procurement simulation workshop programme (pre-product revenue + customer discovery)
-- [ ] Qualify Züblin (via Milan) as grant industry partner and potential pilot client
+- [ ] Qualify Züblin (via Milan) as grant industry partner and potential pilot client — Züblin contact confirmed in Procurement
+- [ ] Competitive landscape analysis
+- [ ] Build 3-year financial model (pre-product + product phases)
+- [ ] Build investor/grant pitch deck
