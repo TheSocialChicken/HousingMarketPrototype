@@ -90,3 +90,5 @@ Early stage — market research and business planning phase. No product built ye
 
 ### Open Tasks
 - [ ] Draft co-founder agreement (equity, decision rights, vesting, exit terms)
+- [ ] Design procurement simulation workshop programme (pre-product revenue + customer discovery)
+- [ ] Qualify Züblin (via Milan) as grant industry partner and potential pilot client

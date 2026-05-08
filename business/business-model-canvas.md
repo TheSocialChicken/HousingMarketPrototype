@@ -1,5 +1,5 @@
 # Business Model Canvas
-> AI-Powered Construction Procurement — v0.4 | Last updated: 2026-05-08
+> AI-Powered Construction Procurement — v0.5 | Last updated: 2026-05-08
 
 ---
 
@@ -77,6 +77,14 @@
 
 ## 5. Revenue Streams
 
+### Pre-product (now — before the AI platform is built)
+| Stream | Stage | Type | Notes |
+|--------|-------|------|-------|
+| **Procurement simulation workshops** | Pre-product | One-time / recurring | Run interactive simulations that make procurement pain visible — like the Beer Game does for supply chain. Generates immediate revenue, funds early development, and is disguised customer discovery. Christiaan's core skill set. |
+| **Procurement process consulting** | Pre-product | Project-based | Map and assess a client's procurement workflow; deliver a report with recommendations. Seeds the relationship for the AI product pitch. |
+| **Research and innovation funding (grants)** | Pre-product / early | Institutional | Separate track — RAAK-PRO, Horizon Europe, NWO-KIEM. Requires named industry partner (Züblin is a candidate) + Windesheim. Not operating revenue. |
+
+### Product (once pilot is running)
 | Stream | Stage | Type |
 |--------|-------|------|
 | Paid pilot | Early | One-time |
@@ -86,11 +94,9 @@
 | Support and maintenance contract | Growth | Recurring |
 | Model update / retraining service | Growth | Recurring |
 | Custom integration work (ERP, procurement systems) | Growth | Project-based |
-| Training workshops | Any | One-time |
 | Procurement data cleanup service | Any | Project-based |
-| Research and innovation funding (grants) | Early | Institutional — separate track |
 
-> **Note:** Grant/research funding is a parallel track tied to university partnerships, not part of the core commercial model. Keep it separate in financial planning.
+> **Strategic note on workshops:** The simulation/workshop track is not just a cashflow bridge — it is the fastest path to deeply understanding the procurement workflow problem from the inside. Every workshop delivered is a customer discovery session. Clients who go through a workshop are warm leads for the pilot. Build the workshop programme as if it's a product in its own right.
 
 ---
 
@@ -147,9 +153,11 @@
 | Partner | Role |
 |---------|------|
 | Construction companies | Early adopters, co-creation, distribution |
+| **ED. Züblin AG (STRABAG)** | **Named industry partner for grant applications; potential pilot client (large Segment A/C); insider contact via Milan** |
 | Material suppliers | Data source, credibility, network |
 | Windesheim University | Accreditation, validation, grant access, talent |
 | Belgrade University | R&D, talent, additional grant access |
+| HPE / Gerard's municipality network | Distribution into Segment B via HPE Ronde Tafel voor Gemeenten |
 | ERP / procurement system providers | Integration, route to market |
 | AI and data specialists | Fine-tuning and infrastructure capability |
 | Industry associations | Credibility, events, distribution |
@@ -183,6 +191,8 @@
 | Data = client ERP + publicly scraped subsupplier data | Solves data sourcing gap; client owns their data; GDPR-compliant |
 | Synthetic data for demos | Removes blocker to pre-sales; lets prospects see value before committing their data |
 | Minimum training data threshold (TBD) | Qualifies prospects, sets expectations, becomes a credibility argument in pitch |
+| Simulation/workshop programme as pre-product revenue | Generates cashflow before product is built; customer discovery in disguise; warms leads for the AI pitch |
+| Züblin as named grant partner | Provides the industry partner slot required for RAAK-PRO and Horizon Europe applications; also a potential large pilot client |
 | Supplier-side AI/API integrations | Future path to richer data without scraping; network effect if suppliers adopt |
 | Universities as Key Partners, not customers | Accreditation, validation, grant access — not revenue |
 | Edge/mobile deployment (subagents) | Future direction — field purchasing use case |
@@ -196,4 +206,6 @@
 3. **ERP integration:** Which ERP systems are most common in your target construction companies (e.g. SAP, Exact, Unit4)? Determines integration priority and partner channel.
 4. **Supplier-side AI timeline:** When is it realistic to integrate with suppliers who have their own AI or API? Likely a v2 feature; define what "supplier-side AI" means concretely.
 5. **Mobile/edge timeline:** Is the phone-based subagent a v1 feature or a future roadmap item? Affects model size and architecture choices now.
-6. **Grant strategy:** Which specific funding programmes (Horizon Europe, NWO, RAAK-PRO) are realistic given the Windesheim partnership?
+6. **Grant strategy:** Züblin as named industry partner unlocks RAAK-PRO (requires HBO + industry partner). Horizon Europe bilateral NL–Serbia track is realistic with Windesheim + Belgrade. NWO-KIEM is a lighter entry point. Prioritise which to apply for first.
+7. **Züblin relationship:** What is Milan's contact's role at Züblin? Procurement, IT, or innovation? This determines whether the entry point is a pilot client, a grant co-applicant, or both.
+8. **Simulation/workshop programme design:** What does the procurement simulation look like? It should make the cost of bad procurement viscerally obvious — like the Beer Game does for the bullwhip effect. A 2–4 hour workshop format with a debrief selling the AI solution naturally.
