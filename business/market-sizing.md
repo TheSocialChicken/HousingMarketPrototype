@@ -1,4 +1,4 @@
-# Market Sizing — TAM / SAM / SOM
+# Market Sizing - TAM / SAM / SOM
 > AI-Powered Construction Procurement | Last updated: 2026-05-08
 >
 > Primary method: Bottom-up. Top-down used for validation.
@@ -38,18 +38,18 @@
 
 ---
 
-## Segment A — Construction Companies
+## Segment A - Construction Companies
 
 ### Market Definition
-Construction companies in the Netherlands with 50 or more employees that conduct regular, structured material procurement. Focus: general contractors, civil engineering firms, and large specialist contractors — not micro-firms or pure subcontractors.
+Construction companies in the Netherlands with 50 or more employees that conduct regular, structured material procurement. Focus: general contractors, civil engineering firms, and large specialist contractors - not micro-firms or pure subcontractors.
 
 ### Population (from CBS / Statista, 2023)
 
 | Size class | Companies in NL | Notes |
 |---|---|---|
-| 0–9 employees | 267,891 | Micro — out of scope |
-| 10–19 employees | 2,944 | Small — out of scope |
-| 20–49 employees | 1,760 | Small — out of scope |
+| 0–9 employees | 267,891 | Micro - out of scope |
+| 10–19 employees | 2,944 | Small - out of scope |
+| 20–49 employees | 1,760 | Small - out of scope |
 | **50–249 employees** | **780** | Core target |
 | **250+ employees** | **133** | Enterprise target |
 | **Total 50+ employees** | **913** | Starting universe |
@@ -83,7 +83,7 @@ Revenue calculation:
 **Segment A SAM (NL) ≈ €13–17M/year**
 > Conservative working figure: **€15M/year**
 
-### SOM — Netherlands, Years 1–5
+### SOM - Netherlands, Years 1–5
 
 | Year | Clients | ARR (Segment A) | Penetration of SAM |
 |---|---|---|---|
@@ -96,7 +96,7 @@ Revenue calculation:
 
 ---
 
-## Segment B — Municipalities
+## Segment B - Municipalities
 
 ### Market Definition
 Dutch municipalities (gemeenten) procuring construction, infrastructure, and public works contracts. Subject to Dutch Aanbestedingswet 2012 and EU procurement directives. Compliance documentation and explainability are legally mandated, not optional.
@@ -135,7 +135,7 @@ Dutch municipalities (gemeenten) procuring construction, infrastructure, and pub
 
 > Additional upside: a VNG (Vereniging Nederlandse Gemeenten) framework agreement could make this tool available to all 342 municipalities under a single procurement. That is a Year 3+ scenario.
 
-### SOM — Netherlands, Years 1–5
+### SOM - Netherlands, Years 1–5
 
 | Year | Clients | ARR (Segment B) | Notes |
 |---|---|---|---|
@@ -152,8 +152,8 @@ Dutch municipalities (gemeenten) procuring construction, infrastructure, and pub
 
 | | TAM (EU) | SAM (NL) | SOM Year 3 (NL) | SOM Year 5 (NL) |
 |---|---|---|---|---|
-| Segment A — Construction co. | €350M | €15M | €475–620K | €900K–1.2M |
-| Segment B — Municipality | €360M | €4.7M | €240–360K | €480–720K |
+| Segment A - Construction co. | €350M | €15M | €475–620K | €900K–1.2M |
+| Segment B - Municipality | €360M | €4.7M | €240–360K | €480–720K |
 | **Total** | **~€710M** | **~€20M** | **~€750K–1M** | **~€1.4–1.9M** |
 
 ### Revenue Trajectory (NL, conservative)
@@ -193,18 +193,18 @@ The two methods agree within 20%, which is within normal range for a bottom-up /
 
 | Assumption | Impact | How to validate |
 |---|---|---|
-| ~375 qualifying construction companies (50+ employees, active procurement) | High — drives SAM directly | Customer discovery interviews; CBS/KvK data cut |
-| Blended annual contract value of €27–52K for construction segment | High — drives all revenue projections | First pilot pricing negotiations |
-| Minimum training data threshold [TBD] | Medium — affects % of SAM that qualifies for fine-tuning | Technical experiment on simulated data; validate with first pilot |
-| ~130 qualifying municipalities (large + medium tier) | Medium — drives Segment B SAM | Publicly available data from CBS / VNG |
-| Municipality sales cycle 6–18 months | Medium — affects Year 1–2 revenue timing | Discovery calls with procurement officers |
-| VNG framework agreement route (Year 3+) | High if achieved — could 3–5x Segment B SOM | Exploratory conversation with VNG via Windesheim |
+| ~375 qualifying construction companies (50+ employees, active procurement) | High - drives SAM directly | Customer discovery interviews; CBS/KvK data cut |
+| Blended annual contract value of €27–52K for construction segment | High - drives all revenue projections | First pilot pricing negotiations |
+| Minimum training data threshold [TBD] | Medium - affects % of SAM that qualifies for fine-tuning | Technical experiment on simulated data; validate with first pilot |
+| ~130 qualifying municipalities (large + medium tier) | Medium - drives Segment B SAM | Publicly available data from CBS / VNG |
+| Municipality sales cycle 6–18 months | Medium - affects Year 1–2 revenue timing | Discovery calls with procurement officers |
+| VNG framework agreement route (Year 3+) | High if achieved - could 3–5x Segment B SOM | Exploratory conversation with VNG via Windesheim |
 
 ---
 
 ## What This Means for Strategy
 
-**The NL market is large enough to build a sustainable business without leaving the country.** A €20M SAM with 5–8% penetration at Year 5 is a €1–1.6M ARR business — viable as a profitable niche player or as a platform for EU expansion.
+**The NL market is large enough to build a sustainable business without leaving the country.** A €20M SAM with 5–8% penetration at Year 5 is a €1–1.6M ARR business - viable as a profitable niche player or as a platform for EU expansion.
 
 **Segment A is the growth engine; Segment B is the credibility anchor.** Construction companies generate faster revenue; a municipality reference gives credibility that unlocks more municipalities and validates the compliance/explainability story for enterprise infrastructure clients (Segment C).
 
@@ -214,11 +214,11 @@ The two methods agree within 20%, which is within normal range for a bottom-up /
 
 ## Sources Referenced
 
-- [Netherlands: number of construction firms, by size — Statista](https://www.statista.com/statistics/431961/number-enterprises-construction-industry-netherlands/)
+- [Netherlands: number of construction firms, by size - Statista](https://www.statista.com/statistics/431961/number-enterprises-construction-industry-netherlands/)
 - [CBS: De Nederlandse bouwnijverheid in onzekere tijden 2019–2023](https://www.cbs.nl/nl-nl/longread/de-nederlandse-economie/2023/de-nederlandse-bouwnijverheid-in-onzekere-tijden-2019-2023)
-- [Monitor Aanbestedingen in Nederland 2021–2023 — Rijksoverheid](https://www.rijksoverheid.nl/documenten/rapporten/2024/12/19/significant-synergy-monitor-aanbestedingen-in-nederland-2021-2023)
+- [Monitor Aanbestedingen in Nederland 2021–2023 - Rijksoverheid](https://www.rijksoverheid.nl/documenten/rapporten/2024/12/19/significant-synergy-monitor-aanbestedingen-in-nederland-2021-2023)
 - [TenderNed Aanbestedingsmonitor 2017–2025](https://www.tenderned.nl/cms/nl/aanbesteden-cijfers/aanbestedingsmonitor-2017-2022)
-- [Dutch Public Procurement Guide — TenderMetric](https://tendermetric.com/insights/dutch-procurement-guide)
-- [Municipalities of the Netherlands — Wikipedia](https://en.wikipedia.org/wiki/Municipalities_of_the_Netherlands)
-- [Europe Procurement Software Market — MarketDataForecast](https://www.marketdataforecast.com/market-reports/europe-procurement-software-market)
+- [Dutch Public Procurement Guide - TenderMetric](https://tendermetric.com/insights/dutch-procurement-guide)
+- [Municipalities of the Netherlands - Wikipedia](https://en.wikipedia.org/wiki/Municipalities_of_the_Netherlands)
+- [Europe Procurement Software Market - MarketDataForecast](https://www.marketdataforecast.com/market-reports/europe-procurement-software-market)
 - [CBS Construction and Housing Statistics](https://www.cbs.nl/en-gb/economy/construction-and-housing)

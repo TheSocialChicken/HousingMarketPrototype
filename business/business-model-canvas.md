@@ -1,5 +1,5 @@
 # Business Model Canvas
-> AI-Powered Construction Procurement — v0.5 | Last updated: 2026-05-08
+> AI-Powered Construction Procurement - v0.5 | Last updated: 2026-05-08
 
 ---
 
@@ -14,7 +14,7 @@
 
 ### Organisational buyers
 - Mid-size construction companies
-- Large construction or infrastructure organisations (enterprise tier — higher data sovereignty needs)
+- Large construction or infrastructure organisations (enterprise tier - higher data sovereignty needs)
 
 > Universities and research partners (Windesheim, Belgrade) are **Key Partners**, not customer segments. They provide accreditation, validation, and grant access.
 
@@ -23,7 +23,7 @@
 ## 2. Value Propositions
 
 ### Core: Local AI with a fine-tuned procurement model
-- On-premise deployment — company data never leaves the client environment
+- On-premise deployment - company data never leaves the client environment
 - Fine-tuned model on client's own procurement and supplier data → fewer hallucinations, domain-specific accuracy
 - Proprietary model per client = switching cost and competitive lock-in
 - Potential for lightweight edge deployment (mobile subagents for field purchasing)
@@ -42,9 +42,9 @@
 
 ### Data & control
 - AI trained on the client's own ERP and procurement history
-- Enriched with publicly available subsupplier data (locations, certifications, lead times) — scraped from public sources only, GDPR-compliant
+- Enriched with publicly available subsupplier data (locations, certifications, lead times) - scraped from public sources only, GDPR-compliant
 - Where a supplier runs their own AI or API, richer structured data can be exchanged programmatically (future: supplier-side integrations)
-- Full control over the model — no dependency on external APIs
+- Full control over the model - no dependency on external APIs
 
 ---
 
@@ -77,27 +77,27 @@
 
 ## 5. Revenue Streams
 
-### Pre-product (now — before the AI platform is built)
+### Pre-product (now - before the AI platform is built)
 | Stream | Stage | Type | Notes |
 |--------|-------|------|-------|
-| **Procurement simulation workshops** | Pre-product | One-time / recurring | Run interactive simulations that make procurement pain visible — like the Beer Game does for supply chain. Generates immediate revenue, funds early development, and is disguised customer discovery. Christiaan's core skill set. |
+| **Procurement simulation workshops** | Pre-product | One-time / recurring | Run interactive simulations that make procurement pain visible - like the Beer Game does for supply chain. Generates immediate revenue, funds early development, and is disguised customer discovery. Christiaan's core skill set. |
 | **Procurement process consulting** | Pre-product | Project-based | Map and assess a client's procurement workflow; deliver a report with recommendations. Seeds the relationship for the AI product pitch. |
-| **Research and innovation funding (grants)** | Pre-product / early | Institutional | Separate track — RAAK-PRO, Horizon Europe, NWO-KIEM. Requires named industry partner (Züblin is a candidate) + Windesheim. Not operating revenue. |
+| **Research and innovation funding (grants)** | Pre-product / early | Institutional | Separate track - RAAK-PRO, Horizon Europe, NWO-KIEM. Requires named industry partner (Züblin is a candidate) + Windesheim. Not operating revenue. |
 
 ### Product (once pilot is running)
 | Stream | Stage | Type | Notes |
 |--------|-------|------|-------|
-| Paid pilot | Early | One-time | First engagement — scoped project, proves value before full implementation |
-| **Implementation fee** | Early / growth | One-time | Full delivery: ERP integration, data ingestion, fine-tuning, deployment, handover — client owns everything |
-| **Annual maintenance contract** | Growth | Recurring (optional) | Software updates, support SLA, minor iterations — ~15% of implementation fee; client-initiated |
-| **Retraining engagement** | Growth | Project-based | Full model refresh when client data has grown or categories expand — client-initiated |
+| Paid pilot | Early | One-time | First engagement - scoped project, proves value before full implementation |
+| **Implementation fee** | Early / growth | One-time | Full delivery: ERP integration, data ingestion, fine-tuning, deployment, handover - client owns everything |
+| **Annual maintenance contract** | Growth | Recurring (optional) | Software updates, support SLA, minor iterations - ~15% of implementation fee; client-initiated |
+| **Retraining engagement** | Growth | Project-based | Full model refresh when client data has grown or categories expand - client-initiated |
 | Custom integration work | Any | Project-based | ERP connectors, procurement system adapters beyond standard scope |
 | Procurement data cleanup service | Any | Project-based | Pre-implementation data structuring for clients with messy procurement history |
-| **Managed service (alternative tier)** | Growth | Recurring | Hosted subscription for clients without IT infrastructure to self-host — higher cost, more legal complexity; not the default |
+| **Managed service (alternative tier)** | Growth | Recurring | Hosted subscription for clients without IT infrastructure to self-host - higher cost, more legal complexity; not the default |
 
-> **No subscription in the default model.** The client owns the deployed system completely. Maintenance and retraining are purchased because they are genuinely useful — not because they are required for the system to function. This removes vendor dependency, simplifies the legal profile (no data processing agreement needed), and fits how municipalities and construction companies already procure enterprise software: as implementations, not SaaS.
+> **No subscription in the default model.** The client owns the deployed system completely. Maintenance and retraining are purchased because they are genuinely useful - not because they are required for the system to function. This removes vendor dependency, simplifies the legal profile (no data processing agreement needed), and fits how municipalities and construction companies already procure enterprise software: as implementations, not SaaS.
 
-> **Strategic note on workshops:** The simulation/workshop track is not just a cashflow bridge — it is the fastest path to deeply understanding the procurement workflow problem from the inside. Every workshop delivered is a customer discovery session. Clients who go through a workshop are warm leads for the pilot. Build the workshop programme as if it's a product in its own right.
+> **Strategic note on workshops:** The simulation/workshop track is not just a cashflow bridge - it is the fastest path to deeply understanding the procurement workflow problem from the inside. Every workshop delivered is a customer discovery session. Clients who go through a workshop are warm leads for the pilot. Build the workshop programme as if it's a product in its own right.
 
 ---
 
@@ -105,8 +105,8 @@
 
 ### Data
 - Client's own ERP and procurement history (brought in during onboarding)
-- **Minimum viable dataset: [TBD] months of procurement history** — threshold at which fine-tuning demonstrably outperforms a general model; qualify prospects against this
-- Publicly scraped subsupplier data (locations, capacity, lead times, certifications) — public sources only, GDPR-compliant
+- **Minimum viable dataset: [TBD] months of procurement history** - threshold at which fine-tuning demonstrably outperforms a general model; qualify prospects against this
+- Publicly scraped subsupplier data (locations, capacity, lead times, certifications) - public sources only, GDPR-compliant
 - Simulated/synthetic procurement datasets for demo and pre-sales purposes
 - Material specifications and certification data
 - Supplier reliability signals
@@ -124,8 +124,8 @@
 - User feedback loop from purchasing teams
 
 ### Network
-- University partners (Windesheim, Belgrade) — validation and grant access
-- Construction company partners — early adopters and co-creators
+- University partners (Windesheim, Belgrade) - validation and grant access
+- Construction company partners - early adopters and co-creators
 - Supplier network
 
 ---
@@ -134,7 +134,7 @@
 
 - Customer discovery and procurement workflow mapping
 - Client data ingestion, cleaning, and standardisation
-- **Determining and validating the minimum training data threshold** (research activity — outcome feeds product qualification and pitch)
+- **Determining and validating the minimum training data threshold** (research activity - outcome feeds product qualification and pitch)
 - Scraping publicly available subsupplier data (GDPR-compliant)
 - Fine-tuning AI model on client-specific procurement data
 - Synthetic dataset generation for demos and pre-sales
@@ -195,8 +195,8 @@
 | Simulation/workshop programme as pre-product revenue | Generates cashflow before product is built; customer discovery in disguise; warms leads for the AI pitch |
 | Züblin as named grant partner | Provides the industry partner slot required for RAAK-PRO and Horizon Europe applications; also a potential large pilot client |
 | Supplier-side AI/API integrations | Future path to richer data without scraping; network effect if suppliers adopt |
-| Universities as Key Partners, not customers | Accreditation, validation, grant access — not revenue |
-| Edge/mobile deployment (subagents) | Future direction — field purchasing use case |
+| Universities as Key Partners, not customers | Accreditation, validation, grant access - not revenue |
+| Edge/mobile deployment (subagents) | Future direction - field purchasing use case |
 
 ---
 
@@ -209,4 +209,4 @@
 5. **Mobile/edge timeline:** Is the phone-based subagent a v1 feature or a future roadmap item? Affects model size and architecture choices now.
 6. **Grant strategy:** Züblin as named industry partner unlocks RAAK-PRO (requires HBO + industry partner). Horizon Europe bilateral NL–Serbia track is realistic with Windesheim + Belgrade. NWO-KIEM is a lighter entry point. Prioritise which to apply for first.
 7. **Züblin relationship:** What is Milan's contact's role at Züblin? Procurement, IT, or innovation? This determines whether the entry point is a pilot client, a grant co-applicant, or both.
-8. **Simulation/workshop programme design:** What does the procurement simulation look like? It should make the cost of bad procurement viscerally obvious — like the Beer Game does for the bullwhip effect. A 2–4 hour workshop format with a debrief selling the AI solution naturally.
+8. **Simulation/workshop programme design:** What does the procurement simulation look like? It should make the cost of bad procurement viscerally obvious - like the Beer Game does for the bullwhip effect. A 2–4 hour workshop format with a debrief selling the AI solution naturally.

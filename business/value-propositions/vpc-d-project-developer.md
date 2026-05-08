@@ -1,4 +1,4 @@
-# Value Proposition Canvas — Segment D
+# Value Proposition Canvas - Segment D
 ## Project Developer / Real Estate Developer
 > AI-Powered Construction Procurement | Last updated: 2026-05-08
 
@@ -6,13 +6,13 @@
 
 ## Value Proposition Statement
 
-> We help project developers take control of material procurement — giving them a simple AI tool that matches specifications, benchmarks prices, and tracks supplier reliability across projects, without needing a dedicated procurement department.
+> We help project developers take control of material procurement - giving them a simple AI tool that matches specifications, benchmarks prices, and tracks supplier reliability across projects, without needing a dedicated procurement department.
 
 ---
 
 ## Pitch Narrative (30 seconds)
 
-*"You're developing multiple projects simultaneously, but procurement happens ad hoc — whoever is available calls the same three suppliers they've always used. You have no visibility across projects, no price benchmarking, and no record of which suppliers actually delivered on time. We give you a simple AI procurement tool that works with your existing project data, surfaces qualified alternatives, and tracks supplier performance across your whole portfolio. You don't need a procurement department to get procurement discipline."*
+*"You're developing multiple projects simultaneously, but procurement happens ad hoc - whoever is available calls the same three suppliers they've always used. You have no visibility across projects, no price benchmarking, and no record of which suppliers actually delivered on time. We give you a simple AI procurement tool that works with your existing project data, surfaces qualified alternatives, and tracks supplier performance across your whole portfolio. You don't need a procurement department to get procurement discipline."*
 
 ---
 
@@ -20,7 +20,7 @@
 
 **Who:** Project managers, development managers, and procurement coordinators at project developers and real estate developers running residential or commercial build programmes.
 
-**Context:** Procurement is not a core organisational competency — it happens per-project, driven by whoever manages the build. Supplier relationships are informal and relationship-driven. Price volatility in materials is a significant budget risk. There is rarely a dedicated procurement function or ERP system; data lives in spreadsheets and email.
+**Context:** Procurement is not a core organisational competency - it happens per-project, driven by whoever manages the build. Supplier relationships are informal and relationship-driven. Price volatility in materials is a significant budget risk. There is rarely a dedicated procurement function or ERP system; data lives in spreadsheets and email.
 
 ---
 
@@ -44,9 +44,9 @@
 | Pain | Severity | Detail |
 |------|----------|--------|
 | Material price volatility makes budgeting unreliable | High | Prices can move significantly between estimate and order |
-| No central visibility across projects — each project team works in isolation | High | No learning or leverage across the portfolio |
+| No central visibility across projects - each project team works in isolation | High | No learning or leverage across the portfolio |
 | Supplier reliability varies and is hard to assess before using them | High | Unreliable suppliers cause delays and rework |
-| Procurement relies on informal relationships — same suppliers used by habit | Medium | Better or cheaper alternatives go undiscovered |
+| Procurement relies on informal relationships - same suppliers used by habit | Medium | Better or cheaper alternatives go undiscovered |
 | No structured record of past supplier performance | Medium | Every project starts from zero; no institutional memory |
 | Project managers spend significant time on procurement logistics | Medium | Distraction from core responsibilities |
 | Difficult to ensure materials meet all required specifications and regulations | Medium | Specification checking is manual and easy to miss |
@@ -58,11 +58,11 @@
 
 | Gain | Relevance | Detail |
 |------|-----------|--------|
-| Price benchmarking — know whether a quote is competitive before accepting it | Essential | Reduces budget risk; improves negotiating position |
-| Faster supplier selection — qualified options surfaced immediately | Expected | Reduces time from specification to order |
+| Price benchmarking - know whether a quote is competitive before accepting it | Essential | Reduces budget risk; improves negotiating position |
+| Faster supplier selection - qualified options surfaced immediately | Expected | Reduces time from specification to order |
 | Supplier reliability scores based on past performance across projects | Desired | Helps avoid known underperformers; builds institutional memory |
 | Consistent specification and compliance checking | Expected | Reduces risk of non-compliant materials |
-| Portfolio-level visibility — see all active procurement across projects | Desired | Enables cross-project learning and volume leverage |
+| Portfolio-level visibility - see all active procurement across projects | Desired | Enables cross-project learning and volume leverage |
 | Simple tool that doesn't require a procurement department to operate | Desired | Accessible to project managers without specialist training |
 
 ---
@@ -97,11 +97,11 @@
 | Frequency of use | ★★★☆☆ | Project-driven; gaps between projects reduce daily utility |
 | Fit with our offer | ★★★☆☆ | Good fit on comparison and matching; weaker on fine-tuning (less data) |
 | Willingness to pay | ★★★☆☆ | Cost savings exist; procurement tooling investment may be harder to justify |
-| Sales cycle | ★★★★☆ | Faster — typically a single decision-maker (development director or CFO) |
+| Sales cycle | ★★★★☆ | Faster - typically a single decision-maker (development director or CFO) |
 | Data availability | ★★☆☆☆ | Limited structured history; often spreadsheets not ERP |
 | Competitive alternatives | ★★★☆☆ | General tools exist; specialist fit is moderate |
 
-**Overall fit: MEDIUM — Tertiary segment. Easier to close but smaller deal size and less data for fine-tuning. Consider a simplified product tier.**
+**Overall fit: MEDIUM - Tertiary segment. Easier to close but smaller deal size and less data for fine-tuning. Consider a simplified product tier.**
 
 ---
 

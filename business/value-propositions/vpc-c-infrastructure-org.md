@@ -1,4 +1,4 @@
-# Value Proposition Canvas — Segment C
+# Value Proposition Canvas - Segment C
 ## Large Infrastructure Organisation
 > AI-Powered Construction Procurement | Last updated: 2026-05-08
 
@@ -6,19 +6,19 @@
 
 ## Value Proposition Statement
 
-> We help large infrastructure organisations bring consistency, traceability, and AI-driven intelligence to procurement at scale — deployed locally on sovereign infrastructure, integrated with their existing systems, and trained on their own data to reflect their specific materials, suppliers, and compliance requirements.
+> We help large infrastructure organisations bring consistency, traceability, and AI-driven intelligence to procurement at scale - deployed locally on sovereign infrastructure, integrated with their existing systems, and trained on their own data to reflect their specific materials, suppliers, and compliance requirements.
 
 ---
 
 ## Pitch Narrative (30 seconds)
 
-*"You're managing procurement across dozens of concurrent projects, thousands of supplier relationships, and years of accumulated contract history — spread across systems that don't talk to each other. We deploy a fine-tuned AI procurement assistant on your own infrastructure, integrated with your ERP and contract management systems, that gives your teams a single interface to search, compare, and document supplier decisions. Every recommendation is traceable. Every certification is verified. And because it runs locally, it meets your sovereign IT requirements from day one."*
+*"You're managing procurement across dozens of concurrent projects, thousands of supplier relationships, and years of accumulated contract history - spread across systems that don't talk to each other. We deploy a fine-tuned AI procurement assistant on your own infrastructure, integrated with your ERP and contract management systems, that gives your teams a single interface to search, compare, and document supplier decisions. Every recommendation is traceable. Every certification is verified. And because it runs locally, it meets your sovereign IT requirements from day one."*
 
 ---
 
 ## Customer Profile
 
-**Who:** Procurement directors, supply chain managers, and contract management teams at large Dutch infrastructure organisations — water boards (waterschappen), national road authority (Rijkswaterstaat), port authorities, and comparable public infrastructure bodies.
+**Who:** Procurement directors, supply chain managers, and contract management teams at large Dutch infrastructure organisations - water boards (waterschappen), national road authority (Rijkswaterstaat), port authorities, and comparable public infrastructure bodies.
 
 **Context:** Long project horizons (5–20 years), complex multi-tier supply chains, hundreds of concurrent procurement events, strict sovereign IT and GDPR requirements, and significant investment in existing ERP and contract management systems. Procurement volumes are large enough that even small efficiency gains translate to significant savings.
 
@@ -78,10 +78,10 @@
 
 | Customer Pain | Our Pain Reliever |
 |---|---|
-| Scale makes manual comparison impossible | Automated specification matching and comparison report generation — handles volume |
+| Scale makes manual comparison impossible | Automated specification matching and comparison report generation - handles volume |
 | Procurement data fragmented across legacy systems | ERP integration pulls historical data into unified procurement intelligence layer |
 | Compliance documentation burden at portfolio scale | Auto-generated audit-ready report for every procurement event |
-| AI tools not permissible under IT policy | On-premise deployment — runs entirely within client infrastructure |
+| AI tools not permissible under IT policy | On-premise deployment - runs entirely within client infrastructure |
 | Sustainability criteria hard to apply consistently at scale | Configurable scoring framework with sustainability dimensions applied uniformly |
 | Supplier qualification slow and resource-intensive | Certification checker automates documentation verification and gap identification |
 | Supplier performance data not systematically used | Model trained on historical procurement data; past performance informs future ranking |
@@ -110,13 +110,13 @@
 | Data availability | ★★★★★ | Years of structured procurement history in ERP systems |
 | Competitive alternatives | ★★★☆☆ | Enterprise procurement tools exist; fine-tuned local AI is differentiated |
 
-**Overall fit: MEDIUM-HIGH — Strong long-term target. Recommend as V2 / enterprise tier once product is proven with Segment A.**
+**Overall fit: MEDIUM-HIGH - Strong long-term target. Recommend as V2 / enterprise tier once product is proven with Segment A.**
 
 ---
 
 ## Product Gap: Supply Chain Risk
 
-This segment's most critical job — ensuring supply chain resilience — is not yet a core feature of the product. To serve this segment fully, the roadmap would need to include:
+This segment's most critical job - ensuring supply chain resilience - is not yet a core feature of the product. To serve this segment fully, the roadmap would need to include:
 - Supplier concentration risk scoring (what % of a material category comes from a single supplier)
 - Lead time risk flagging based on current supplier signals
 - Forward demand forecasting from the project pipeline

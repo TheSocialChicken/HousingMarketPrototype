@@ -1,4 +1,4 @@
-# Kirsten Coppoolse — COO / Operations
+# Kirsten Coppoolse - COO / Operations
 > AI-Powered Construction Procurement | Last updated: 2026-05-08
 
 **MBTI:** ENFJ-A · **Location:** Baarn, Netherlands · **Partner of:** Christiaan
@@ -16,13 +16,13 @@
 | **Compliance management** | High | Top listed skill. Relevant for a product targeting municipalities and infrastructure orgs with legal procurement requirements. |
 | **HR strategy** | High | Hired and managed teams through sustained growth. |
 | **IT management** | Medium | Managed technical operations in a growing software company. |
-| **Prior working relationship with Christiaan** | High | Open Food Chain and inblock.io — no friction, no unknowns. |
+| **Prior working relationship with Christiaan** | High | Open Food Chain and inblock.io - no friction, no unknowns. |
 | **Fundraising** | Medium | Head of Marketing, Promotion and Fundraising at Metamorphosis Zoetrope. Supports grant applications. |
-| **Legal awareness** | Medium | Partial LLB — useful when navigating procurement law and compliance contracts (Segment B territory). |
+| **Legal awareness** | Medium | Partial LLB - useful when navigating procurement law and compliance contracts (Segment B territory). |
 
 **Her role:** Operations, compliance processes, team building, financial structure. Frees Christiaan and Milan to focus on product and customers.
 
-**Gaps filled:** Partial Gap 3 — Sales/BD ⚠️ (operational support; dedicated enterprise sales still needed)
+**Gaps filled:** Partial Gap 3 - Sales/BD ⚠️ (operational support; dedicated enterprise sales still needed)
 
 ---
 
@@ -30,18 +30,18 @@
 
 **In collaboration she:**
 - Provides the operational backbone that Christiaan's energy requires. She catches the decisions, builds the systems, and holds the team to its own agreements.
-- Is assertive and steady under pressure — ENFJ-A means she doesn't visibly wobble when things are hard, which makes her the de facto emotional regulator for the team.
-- Leads through relationships and structure simultaneously — good at making people feel included in decisions while moving things forward.
+- Is assertive and steady under pressure - ENFJ-A means she doesn't visibly wobble when things are hard, which makes her the de facto emotional regulator for the team.
+- Leads through relationships and structure simultaneously - good at making people feel included in decisions while moving things forward.
 - Has real operational credibility. She has done the hard part of this kind of company before.
 
 **What she needs from the team:**
 - Transparency. She can manage almost any situation with good information; she can't manage surprises. Tell her early when something is going sideways.
 - Respect for the operational layer. Don't underestimate how much work goes into keeping a company functional.
-- Her own space in conversations — Christiaan's ENFP energy can inadvertently dominate. Meetings need structure that protects her contributions.
+- Her own space in conversations - Christiaan's ENFP energy can inadvertently dominate. Meetings need structure that protects her contributions.
 
 **Watch for:**
 - Absorbing too much. ENFJ-A types are natural fixers; she will pick up whatever falls through the gaps. This is valuable but unsustainable at scale. Define what falls outside her remit.
-- Friction with Milan. She is structured and process-oriented; he is strategic but resistant to process he hasn't approved. Most likely recurring tension in the team — keep it at the structural level.
+- Friction with Milan. She is structured and process-oriented; he is strategic but resistant to process he hasn't approved. Most likely recurring tension in the team - keep it at the structural level.
 - The couple dynamic with Christiaan in team settings. They will sometimes need to visibly disagree in front of the group to signal the business relationship is separate.
 
 ---

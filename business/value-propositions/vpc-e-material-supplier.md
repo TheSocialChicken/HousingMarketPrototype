@@ -1,4 +1,4 @@
-# Value Proposition Canvas — Segment E
+# Value Proposition Canvas - Segment E
 ## Material Supplier
 > AI-Powered Construction Procurement | Last updated: 2026-05-08
 
@@ -6,19 +6,19 @@
 
 ## Value Proposition Statement
 
-> We help construction material suppliers be found and matched at the exact moment a buyer is specifying — by ensuring their product data, certifications, and availability are present and structured inside the AI procurement systems their customers use.
+> We help construction material suppliers be found and matched at the exact moment a buyer is specifying - by ensuring their product data, certifications, and availability are present and structured inside the AI procurement systems their customers use.
 
 ---
 
 ## Pitch Narrative (30 seconds)
 
-*"Your best customers find you through relationships and habit. But procurement is changing — construction companies and municipalities are starting to use AI to match specifications to suppliers automatically. If your product data isn't in those systems, structured and up to date, you won't even appear in the comparison. We help suppliers get in front of AI-driven procurement, with structured product and certification data that matches how buyers now search."*
+*"Your best customers find you through relationships and habit. But procurement is changing - construction companies and municipalities are starting to use AI to match specifications to suppliers automatically. If your product data isn't in those systems, structured and up to date, you won't even appear in the comparison. We help suppliers get in front of AI-driven procurement, with structured product and certification data that matches how buyers now search."*
 
 ---
 
 ## Customer Profile
 
-**Who:** Sales directors, key account managers, and marketing managers at material suppliers — manufacturers, distributors, and specialist suppliers of construction materials (steel, concrete, insulation, piping, fixings, etc.).
+**Who:** Sales directors, key account managers, and marketing managers at material suppliers - manufacturers, distributors, and specialist suppliers of construction materials (steel, concrete, insulation, piping, fixings, etc.).
 
 **Context:** Supplier sales cycles are relationship-driven. Discovery of new customers is difficult. Procurement at construction companies and municipalities is increasingly tool-assisted. Suppliers who don't have structured, machine-readable product and certification data are invisible to AI-driven procurement systems.
 
@@ -42,7 +42,7 @@
 
 | Pain | Severity | Detail |
 |------|----------|--------|
-| Invisible to procurement teams who rely on AI or tool-assisted search | High | If not in the system, not in the comparison — increasingly common |
+| Invisible to procurement teams who rely on AI or tool-assisted search | High | If not in the system, not in the comparison - increasingly common |
 | Hard to communicate differentiating specifications in a structured, machine-readable way | High | Product data exists in PDFs and brochures; not in formats that AI systems can use |
 | Sales effort is high relative to conversion rate | High | Long relationship-building cycles; most effort is wasted on unqualified prospects |
 | Certification and compliance data is hard to keep updated across all channels | Medium | Certificates expire; updates are manual; gaps lead to disqualification |
@@ -58,7 +58,7 @@
 |------|-----------|--------|
 | Appear in AI-driven procurement comparisons at the moment of specification | Essential | Presence in the matching engine is equivalent to a seat at the table |
 | Be matched based on actual specifications, not just relationships or luck | Desired | Merit-based discovery levels the playing field |
-| Reduce sales effort by reaching pre-qualified buyers at the right moment | Desired | Buyers already looking for what you supply — conversion is higher |
+| Reduce sales effort by reaching pre-qualified buyers at the right moment | Desired | Buyers already looking for what you supply - conversion is higher |
 | Communicate quality, reliability, and sustainability credentials effectively | Desired | Differentiation beyond price becomes visible and comparable |
 | Keep certification and product data current with minimal manual effort | Expected | Automated or streamlined data maintenance |
 | Get visibility into how buyers search and what criteria matter most | Desired | Feedback from procurement behaviour informs sales and product strategy |
@@ -78,7 +78,7 @@
 | Customer Gain | Our Gain Creator |
 |---|---|
 | Appear in AI procurement comparisons | Structured presence in the specification matching engine used by buyer clients |
-| Be matched on actual specifications | Matching engine evaluates spec alignment — relevance, not just relationships |
+| Be matched on actual specifications | Matching engine evaluates spec alignment - relevance, not just relationships |
 | Reach pre-qualified buyers | Buyers using the system are actively procuring matching materials |
 | Communicate differentiation effectively | Multi-criteria comparison makes quality and reliability visible and scored |
 | Keep data current | Structured supplier data profile with guided update workflow |
@@ -94,10 +94,10 @@
 | Fit with our offer | ★★★☆☆ | Fit is real but requires a supplier-facing product layer we don't have yet |
 | Willingness to pay | ★★★☆☆ | Marketing / lead generation budget exists; depends on proven ROI |
 | Sales cycle | ★★★★☆ | Shorter than buyer segments; marketing budget decision |
-| Data contribution | ★★★★★ | Suppliers enrich the matching engine for all buyers — strong network effect |
+| Data contribution | ★★★★★ | Suppliers enrich the matching engine for all buyers - strong network effect |
 | Competitive alternatives | ★★★☆☆ | Catalogue platforms exist; AI-integrated supplier profiles are newer |
 
-**Overall fit: MEDIUM — Structurally different from buyer segments. Best treated as a V2 supplier tier with a separate product surface and revenue model.**
+**Overall fit: MEDIUM - Structurally different from buyer segments. Best treated as a V2 supplier tier with a separate product surface and revenue model.**
 
 ---
 
@@ -105,10 +105,10 @@
 
 Even before building a paid supplier tier, suppliers are critical as **data partners**:
 - Suppliers who contribute structured product and certification data improve the matching engine for all buyers
-- A supplier data network creates a compounding advantage — the more suppliers, the better the matching, the more valuable the buyer product
+- A supplier data network creates a compounding advantage - the more suppliers, the better the matching, the more valuable the buyer product
 - Early supplier relationships (unpaid data partnerships) can be formalised into a paid supplier tier in V2
 
-This suggests an early-stage **supplier data partnership programme** — no revenue, but builds the data asset that makes the buyer product more valuable.
+This suggests an early-stage **supplier data partnership programme** - no revenue, but builds the data asset that makes the buyer product more valuable.
 
 ---
 
@@ -116,7 +116,7 @@ This suggests an early-stage **supplier data partnership programme** — no reve
 
 - **Network effect design:** If each buyer client's model is enriched by a shared base of supplier data, the supplier segment creates value for all buyer clients simultaneously. Design the data model to allow this from the start.
 - **Supplier-side AI:** Some suppliers may develop their own AI or API (product configurators, availability APIs). Future integration with these systems could enable richer, more dynamic data exchange.
-- **Entry point:** Start by onboarding suppliers whose data you already need for your first buyer clients. Frame it as mutual benefit — they get visibility; you get data.
+- **Entry point:** Start by onboarding suppliers whose data you already need for your first buyer clients. Frame it as mutual benefit - they get visibility; you get data.
 
 ---
 

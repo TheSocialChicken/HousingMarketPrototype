@@ -10,7 +10,7 @@
 ## Products & Services
 
 ### Core: Local AI Procurement Assistant
-A fine-tuned AI model deployed on the client's own infrastructure (on-premise or private cloud). The model is trained on the client's historical procurement data — orders, suppliers, materials, certifications — and enriched with publicly available subsupplier data. It runs without sending data to external APIs.
+A fine-tuned AI model deployed on the client's own infrastructure (on-premise or private cloud). The model is trained on the client's historical procurement data - orders, suppliers, materials, certifications - and enriched with publicly available subsupplier data. It runs without sending data to external APIs.
 
 ### Specification-to-Material Matching Engine
 Translates a procurement specification (material type, grade, dimensions, certifications required, delivery window) into a ranked list of matching suppliers and materials from the client's supplier database and enriched external data.
@@ -37,7 +37,7 @@ A pre-configured environment using synthetic procurement data that replicates re
 Scheduled retraining of the client's model as new procurement data accumulates. Includes data quality checks, performance benchmarking against the previous version, and a changelog of what the model has learned.
 
 ### (Roadmap) Edge / Mobile Subagents
-Lightweight model variants deployable on tablets or phones for field purchasing — enabling on-site material sourcing decisions without a connection back to central infrastructure.
+Lightweight model variants deployable on tablets or phones for field purchasing - enabling on-site material sourcing decisions without a connection back to central infrastructure.
 
 ---
 
@@ -47,11 +47,11 @@ Lightweight model variants deployable on tablets or phones for field purchasing 
 |---|---|---|
 | Supplier information is scattered across email, Excel, portals, and phone calls | Single unified search across all integrated supplier and material data | A, B, C, D |
 | Comparing suppliers manually is slow and error-prone | Automated comparison report generated in seconds from a specification input | A, B, C, D |
-| Certificates expire or are missing — discovered too late | Certification checker runs at query time and flags gaps before ordering | A, B, C |
+| Certificates expire or are missing - discovered too late | Certification checker runs at query time and flags gaps before ordering | A, B, C |
 | Procurement knowledge is concentrated in one person | Fine-tuned model encodes past procurement decisions and supplier logic | A, C |
 | Hard to justify or document why a supplier was chosen | Explainable AI with full reasoning trail and cited data sources | A, B, C |
 | Fear that AI will hallucinate or give wrong material matches | Model fine-tuned on client's own domain data; outputs grounded in real supplier records | A, B, C, D |
-| Concern about sensitive procurement data leaving the organisation | On-premise deployment — model and data stay within client infrastructure | A, B, C |
+| Concern about sensitive procurement data leaving the organisation | On-premise deployment - model and data stay within client infrastructure | A, B, C |
 | New team members take months to get productive | AI encodes institutional knowledge; onboarding accelerated by guided search | A, C |
 | Difficult to include sustainability criteria consistently | Scoring framework includes configurable sustainability and circularity weighting | B, C |
 | Long lead times cause project delays | Material availability and lead time data visible at search time | A, C, D |
@@ -63,8 +63,8 @@ Lightweight model variants deployable on tablets or phones for field purchasing 
 
 | Gain created | How we create it | Relevant segments |
 |---|---|---|
-| Faster procurement cycles — from specification to approved order | Automated matching, comparison, and routing replaces days of manual work | A, B, D |
-| Better supplier decisions — more criteria, less bias | Multi-criteria scoring across price, quality, reliability, certs, sustainability | A, B, C |
+| Faster procurement cycles - from specification to approved order | Automated matching, comparison, and routing replaces days of manual work | A, B, D |
+| Better supplier decisions - more criteria, less bias | Multi-criteria scoring across price, quality, reliability, certs, sustainability | A, B, C |
 | Institutional procurement knowledge retained and shareable | Model captures decision logic from historical data; survives staff turnover | A, C |
 | Audit-ready documentation on every decision | Auto-generated comparison report serves as a complete procurement record | A, B, C |
 | Reduced dependency on external AI providers | Local model with no API calls; no per-query cost; no third-party data exposure | A, B, C |
@@ -78,4 +78,4 @@ Lightweight model variants deployable on tablets or phones for field purchasing 
 
 ## Value Proposition Statement (generic)
 
-> We give construction procurement teams a locally deployed, fine-tuned AI that matches materials to specifications, compares suppliers on every relevant dimension, and generates audit-ready reports — all without their data leaving their own infrastructure.
+> We give construction procurement teams a locally deployed, fine-tuned AI that matches materials to specifications, compares suppliers on every relevant dimension, and generates audit-ready reports - all without their data leaving their own infrastructure.
