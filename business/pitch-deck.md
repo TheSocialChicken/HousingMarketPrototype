@@ -67,15 +67,15 @@ For municipalities it's worse. They're legally accountable for every euro they s
 > "A fine-tuned AI procurement assistant. Runs on your server. Trained on your data."
 
 **Three points:**
-- Matches a procurement need to a ranked, reasoned list of qualified suppliers
-- Runs locally - no data leaves the client's infrastructure, ever
-- Learns from the client's own procurement history - gets more accurate over time, not less
+- Structures procurement decisions - the AI ranks and documents, the procurement professional reviews and decides
+- Runs locally and learns from the client's own data - gets more accurate with every procurement cycle, not less
+- Not generative AI - a fine-tuned process tool trained on real procurement history; no hallucinated suppliers or certifications
 
 **Speaker notes:**
 
-"Think of it as a procurement expert who has read every contract your company has ever signed, knows every supplier you've ever worked with, remembers every certification and delivery failure - and writes the audit report automatically.
+"Think of it as a procurement expert who has read every contract your company has ever signed, knows every supplier you've ever worked with, remembers every certification and delivery failure - and structures the comparison for the manager to review.
 
-It doesn't live in our cloud. It lives in theirs. That's not a limitation - for our clients, that's the product."
+The manager still decides. The AI does the retrieval, the ranking, the documentation - everything that currently takes three hours in a spreadsheet. It doesn't live in our cloud. It lives in theirs. That's not a limitation - for our clients, that's the product."
 
 ---
 
@@ -89,9 +89,9 @@ It doesn't live in our cloud. It lives in theirs. That's not a limitation - for 
 **Visual flow (simple, left to right):**
 
 ```
-[Describe the need]  →  [AI ranks suppliers]  →  [Documented recommendation]
- Material, spec,         Ranked by price,          Reasoning, certifications,
- quantity, timeline      quality, lead time,        audit-ready - one click
+[Describe the need]  →  [AI ranks and scores]  →  [Manager reviews]  →  [Decision documented]
+ Material, spec,         Ranked by price,           Human checks,          Audit trail built
+ quantity, timeline      quality, lead time,         approves or adjusts    at point of decision
                          certification, history
 ```
 

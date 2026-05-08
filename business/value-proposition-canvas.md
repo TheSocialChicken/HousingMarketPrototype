@@ -118,14 +118,14 @@ Deployed on the client's own infrastructure. Trained on their procurement histor
 Takes a material specification and returns a ranked, multi-criteria comparison of matching suppliers - price, delivery, quality, certifications, reliability, sustainability. Output is audit-ready.
 
 **3. Explainability**
-Every recommendation includes a reasoning trail: which criteria drove the result, which data was used, where it came from. Designed for human review, management approval, and audit.
+Every comparison output includes a reasoning trail: which criteria drove the result, which data was used, where it came from. Designed for human review, management approval, and audit.
 
 ---
 
 ## Strategic Observations
 
 **Segments A and B are the right dual focus at launch.**
-Both have severe, quantified pain (€49,500/yr per PM in admin waste; 73% of overruns trace to procurement) and strong offer fit. The construction company is faster to close (1–3 months); the municipality opens a replicable market - 342 municipalities all face identical compliance obligations, so one reference unlocks many. Run them in parallel.
+Both have severe, quantified pain (€49,500/yr per PM in admin waste; McKinsey estimates 80% of large projects run over budget, with procurement failures a primary driver) and strong offer fit. The construction company is faster to close (1–3 months); the municipality opens a replicable market - 342 municipalities all face identical compliance obligations, so one reference unlocks many. Run them in parallel.
 
 **CPR 2024 creates a new urgency hook for Segment B.**
 The EU Construction Products Regulation 2024/3110 is operational from January 2026. Municipal procurement teams do not yet have tooling to handle CPR documentation at the supplier level. This is a specific, time-bound conversation that opens in Q2–Q3 2026 - before annual budget setting.

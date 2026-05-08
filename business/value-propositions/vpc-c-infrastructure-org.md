@@ -12,7 +12,7 @@
 
 ## Pitch Narrative (30 seconds)
 
-*"You're managing procurement across dozens of concurrent projects, thousands of supplier relationships, and years of accumulated contract history - spread across systems that don't talk to each other. We deploy a fine-tuned AI procurement assistant on your own infrastructure, integrated with your ERP and contract management systems, that gives your teams a single interface to search, compare, and document supplier decisions. Every recommendation is traceable. Every certification is verified. And because it runs locally, it meets your sovereign IT requirements from day one."*
+*"You're managing procurement across dozens of concurrent projects, thousands of supplier relationships, and years of accumulated contract history - spread across systems that don't talk to each other. We deploy a fine-tuned AI procurement assistant on your own infrastructure, integrated with your ERP and contract management systems, that gives your teams a single interface to search, compare, and document supplier decisions. Every comparison result is traceable. Every certification is verified. And because it runs locally, it meets your sovereign IT requirements from day one."*
 
 ---
 

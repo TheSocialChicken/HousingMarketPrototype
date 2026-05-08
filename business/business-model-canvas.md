@@ -24,9 +24,16 @@
 
 ### Core: Local AI with a fine-tuned procurement model
 - On-premise deployment - company data never leaves the client environment
-- Fine-tuned model on client's own procurement and supplier data → fewer hallucinations, domain-specific accuracy
+- Fine-tuned model on client's own procurement and supplier data → domain-specific accuracy, fewer errors than a generic model
+- Continuous improvement - each procurement cycle adds to the model's understanding of the client's specific supplier base, material categories, and past decisions; the model gets smarter over time without extra effort from the client
 - Proprietary model per client = switching cost and competitive lock-in
 - Potential for lightweight edge deployment (mobile subagents for field purchasing)
+
+### Design philosophy: decision support, not autonomous AI
+- The AI handles retrieval, ranking, scoring, and documentation - the procurement professional reviews and decides
+- Not a generative AI making things up from a generic model; a fine-tuned process tool trained on real procurement data
+- Output is a structured comparison with an explicit reasoning trail - designed for human review, management approval, and audit
+- This framing is essential for public sector clients who are legally accountable for every procurement decision
 
 ### Procurement efficiency
 - Faster material search and supplier comparison
@@ -36,8 +43,8 @@
 
 ### Decision quality
 - Better matching between specifications and available materials
-- Clear comparison of price, delivery time, quality, reliability, and certifications
-- Explainable procurement recommendations
+- Clear, structured comparison of price, delivery time, quality, reliability, and certifications
+- Transparent, explainable output with full reasoning trail - not black-box AI
 - Reduced risk of ordering the wrong material
 
 ### Data & control

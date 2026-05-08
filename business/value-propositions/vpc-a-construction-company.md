@@ -33,7 +33,7 @@ The pain is not anecdotal. The research backing is quantified:
 
 ## Pitch Narrative (30 seconds)
 
-*"Your procurement team spends over 11 hours a week digging through emails, Excel sheets, and supplier portals just to compare a handful of quotes - that's nearly €50,000 per buyer per year, just in wasted admin time. When your best buyer leaves, that knowledge walks out the door. We deploy a local AI - trained on your own procurement history - that matches any specification to your suppliers, generates a comparison report in minutes, and explains every recommendation. Your data never leaves your building. The longer you use it, the smarter it gets."*
+*"Your procurement team spends over 11 hours a week digging through emails, Excel sheets, and supplier portals just to compare a handful of quotes - that's nearly €50,000 per buyer per year, just in wasted admin time. When your best buyer leaves, that knowledge walks out the door. We deploy a local AI - trained on your own procurement history - that matches any specification to your suppliers, generates a structured comparison in minutes, and documents every step of the reasoning. Your buyer reviews it and decides. Your data never leaves your building. The longer you use it, the smarter it gets."*
 
 ---
 
@@ -65,11 +65,11 @@ The pain is not anecdotal. The research backing is quantified:
 
 | Pain | Severity | Quantified Detail |
 |------|----------|-------------------|
-| Supplier information is scattered - email, Excel, portals, phone | High | 88% of contractors still use spreadsheets; no single place to search |
+| Supplier information is scattered - email, Excel, portals, phone | High | Most mid-size contractors manage procurement in spreadsheets; no single searchable system |
 | Comparing supplier offers is slow and error-prone | High | Manual comparison takes 2–3 hours per transaction; 4–8 hrs/week on quote comparison alone |
 | Certificates expire and the gap is only discovered at the wrong moment | High | CPR 2024/3110 (Jan 2025 entry, operational Jan 2026) adds a new certification layer across EU products |
 | Procurement knowledge lives in one or two people's heads | High | No system captures it; when the expert leaves, institutional memory is lost |
-| Hard to prove a procurement decision was right after the fact | High | 73% of construction overruns traced to procurement/contracting failures; audit trail rarely exists |
+| Hard to prove a procurement decision was right after the fact | High | McKinsey: average large project runs 80% over budget; procurement failures consistently among primary drivers; audit trail rarely exists |
 | Procurement errors directly cost money | High | 0.5–1% profit erosion per project; 10–15% margin loss on variations from scope inconsistency |
 | ERP system doesn't help with supplier discovery or comparison | Medium | ERP tracks transactions, not intelligence or comparison logic |
 | New buyers take months to reach full productivity | Medium | Onboarding relies on shadowing the expert; 20–28 hrs/month manual data entry just to keep up |
@@ -86,7 +86,7 @@ The pain is not anecdotal. The research backing is quantified:
 | Fewer mistakes - right material, right supplier, first time | Essential | Returns and re-orders cost 10–15% margin on affected variation; certification errors now carry CPR liability |
 | Compliance confidence - certifications verified before ordering | Essential | Automated at query time; reduces liability under Aanbestedingswet and new CPR rules |
 | Institutional knowledge captured and accessible to the whole team | Desired | Survives staff turnover; critical when 8/10 Dutch contractors are already understaffed |
-| Defensible, documented procurement decisions | Expected | Audit trail built into every recommendation; 73% of overruns trace to procurement - this closes that gap |
+| Defensible, documented procurement decisions | Expected | Audit trail built into every comparison output; procurement failures are the primary driver of project overruns - this closes that gap |
 | Discover better suppliers beyond the usual relationships | Desired | Wider choice improves negotiating position and resilience in a fragmented 118K-supplier market |
 | AI gets better over time as more data accumulates | Desired | Continuous improvement without extra effort; switching cost grows with every procurement cycle |
 | Data stays in-house - no external API dependency | Expected | Commercial sensitivity respected; full data sovereignty for pricing and supplier data |
@@ -128,7 +128,7 @@ The pain is not anecdotal. The research backing is quantified:
 | **Fairmarkit** | Enterprise autonomous sourcing (10× events per FTE) | Enterprise-only; no domain-specific fine-tuning; no EU/NL compliance layer |
 | Generic LLM tools (ChatGPT, Copilot) | General AI assistance | Data leaves the company; not trained on procurement data; no audit trail |
 
-**Our differentiated position:** The only Dutch-market, on-premise, fine-tuned procurement AI that produces explainable, audit-ready recommendations - trained on the client's own data.
+**Our differentiated position:** The only Dutch-market, on-premise, fine-tuned procurement process tool that produces structured, explainable, audit-ready comparison outputs - trained on the client's own data, getting smarter with every procurement cycle.
 
 ---
 
@@ -136,7 +136,7 @@ The pain is not anecdotal. The research backing is quantified:
 
 | Dimension | Score | Evidence |
 |-----------|-------|----------|
-| Pain severity | ★★★★★ | €49,500/yr per PM in admin; 73% of overruns from procurement failures |
+| Pain severity | ★★★★★ | €49,500/yr per PM in admin; McKinsey: 80% of large projects over budget, procurement failures a primary driver |
 | Frequency of use | ★★★★★ | Procurement is a core daily function (11+ hrs/week) |
 | Fit with our offer | ★★★★★ | Every feature addresses a stated pain with a quantified outcome |
 | Willingness to pay | ★★★★☆ | Cost savings (procurement efficiency) + risk reduction (overruns, liability) justify investment |

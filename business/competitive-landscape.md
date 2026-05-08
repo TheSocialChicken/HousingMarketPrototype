@@ -18,6 +18,7 @@ The market is crowded with generic procurement suites and a handful of construct
 | Category | Players | Our overlap | Our advantage |
 |---|---|---|---|
 | **Generic enterprise procurement suites** | SAP Ariba, Coupa, Ivalua, GEP SMART | Procurement automation | Local deployment, construction domain, per-client model, SME-accessible |
+| **European mid-market Source-to-Pay** | Onventis, Jaggaer | Procurement automation, EU market, AI features | Local deployment, construction domain, per-client fine-tuning, explainability |
 | **Construction project management with procurement** | Procore, Autodesk Construction Cloud | Construction sector | AI-first, fine-tuning, local model, not bundled with broader PM tool |
 | **Construction materials procurement (cloud)** | Kojo, Parspec, Field Materials, Constrafor | Construction materials + AI matching | Local deployment, EU/NL market, per-client fine-tuning, explainability |
 | **Dutch/EU public procurement platforms** | Mercell (Negometrix), TenderNed | Dutch public sector, compliance | AI decision layer on top of what they only manage as a process |
@@ -166,19 +167,49 @@ The market is crowded with generic procurement suites and a handful of construct
 
 ---
 
+### 7. Onventis
+> European mid-market Source-to-Pay platform - active in Benelux
+
+**What they do:** Cloud-native Source-to-Pay suite covering sourcing, procurement, invoicing, and spend analytics. Founded Stuttgart 2000. 1,000+ buyer organisations, 1.2M users, processes ~€40bn in annual transaction volume. Backed by Keensight Capital (majority stake, 2023). Acquired Dutch automation specialist WorkFlowWise - giving them an active Benelux presence and a Dutch salesforce.
+
+**Deployment:** Cloud-only SaaS. They market EU data sovereignty (Customer Managed Key option, resistance to US Cloud Act) but there is no on-premise or locally-deployed model.
+
+**Construction specialisation:** None. Construction is listed as one of 10+ verticals served; no construction-specific modules, specification matching, or Dutch tender terminology.
+
+**AI approach (Onventis Onix):** AI agents for natural-language order intake, PDF offer extraction, order confirmation matching, spend categorisation, and supplier questionnaire analysis. General-purpose procurement AI - not fine-tuned per client, not trained on construction domain data. No explainable AI audit trail beyond standard spend dashboards.
+
+**Target market:** European mid-market (DACH + Benelux core). Actively serves Dutch companies. No specific focus on municipalities or public-sector compliance.
+
+**Why they matter:**
+- Onventis has Dutch salespeople, Dutch clients, and active Benelux marketing. They will appear in procurement software shortlists from construction companies you're targeting.
+- Their AI features (Onix agents) are recent and will be used to claim AI credentials in the same conversation.
+
+**Where we differ:**
+| Onventis | Us |
+|---|---|
+| Cloud-only | Local / on-premise |
+| Generic procurement AI across all industries | Construction domain, fine-tuned on client data |
+| No per-client model training | Model improves on the client's own procurement history |
+| No explainable audit trail for Dutch public law | Explainability designed for Aanbestedingswet and CPR compliance |
+| Not suitable for municipalities or sovereign IT | Built for clients who cannot use cloud AI |
+
+**Threat level:** MEDIUM for Segment A (construction companies - they actively target this market with Benelux salesforce). LOW for Segment B (municipalities - cloud-only disqualifies them for clients with data sovereignty requirements under Aanbestedingswet and internal IT policy).
+
+---
+
 ## Differentiation Matrix
 
-| | SAP Ariba / Coupa | Procore | Parspec | Kojo | Mercell | **Us** |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|
-| **Local / on-premise deployment** | ✗ | ✗ | ✗ | ✗ | ✗ | **✅** |
-| **Construction material domain** | ✗ | ✅ | ✅ | ✅ | ✗ | **✅** |
-| **AI specification matching** | ✗ | ✗ | ✅ | ✗ | ✗ | **✅** |
-| **Fine-tuned per client** | ✗ | ✗ | ✗ | ✗ | ✗ | **✅** |
-| **Explainable AI / audit trail** | ✗ | ✗ | ✗ | ✗ | ✗ | **✅** |
-| **Municipal / public sector compliance** | ⚠️ | ✗ | ✗ | ✗ | ✅ | **✅** |
-| **Dutch / EU market focus** | ⚠️ | ⚠️ | ✗ | ✗ | ✅ | **✅** |
-| **SME-accessible pricing** | ✗ | ⚠️ | ✅ | ✅ | ✅ | **✅** |
-| **Data sovereignty** | ✗ | ✗ | ✗ | ✗ | ✗ | **✅** |
+| | SAP Ariba / Coupa | Procore | Parspec | Kojo | Mercell | Onventis | **Us** |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Local / on-premise deployment** | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | **✅** |
+| **Construction material domain** | ✗ | ✅ | ✅ | ✅ | ✗ | ✗ | **✅** |
+| **AI specification matching** | ✗ | ✗ | ✅ | ✗ | ✗ | ✗ | **✅** |
+| **Fine-tuned per client** | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | **✅** |
+| **Explainable AI / audit trail** | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | **✅** |
+| **Municipal / public sector compliance** | ⚠️ | ✗ | ✗ | ✗ | ✅ | ✗ | **✅** |
+| **Dutch / EU market focus** | ⚠️ | ⚠️ | ✗ | ✗ | ✅ | ✅ | **✅** |
+| **SME-accessible pricing** | ✗ | ⚠️ | ✅ | ✅ | ✅ | ⚠️ | **✅** |
+| **Data sovereignty** | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | **✅** |
 
 > ✅ = yes · ⚠️ = partial · ✗ = no
 
@@ -195,6 +226,8 @@ The gap we occupy:
 No current player combines all of these. The closest single competitor on AI + construction is Parspec - but Parspec is cloud-only, US-focused, catalogue-driven, and not designed for public-sector compliance or explainability.
 
 The closest Dutch player on compliance + municipalities is Mercell - but Mercell is a process platform, not an AI decision layer, and has no material specification reasoning at all.
+
+The most likely name to appear in a Dutch construction procurement shortlist is Onventis - well-funded, Benelux-active, with AI features. But Onventis is cloud-only, horizontally generic, and has no construction domain knowledge or per-client fine-tuning. In any conversation where local deployment or construction specificity matters, they are not a substitute.
 
 ---
 

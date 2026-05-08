@@ -82,7 +82,7 @@ The compliance burden is growing, not shrinking - and the documentation tools ha
 | Complete, audit-ready documentation generated automatically for every decision | Essential | Eliminates retroactive document chasing; documentation exists before the audit arrives |
 | Consistent application of evaluation criteria across all procurement decisions | Essential | Same AI logic applied every time; removes officer-to-officer inconsistency |
 | Structured inclusion of sustainability, circularity, and CPR criteria | Essential | CPR 2024 compliance from Jan 2026 built in; MVO and SROI weighting configurable |
-| Defensible, explainable AI recommendations presentable to officials and auditors | Essential | Full reasoning trail with cited data - suitable for council presentation and legal review |
+| Transparent, explainable comparison outputs presentable to officials and auditors - the officer reviews and decides, the AI documents | Essential | Full reasoning trail with cited data - suitable for council presentation and legal review |
 | Data and AI infrastructure that complies with GDPR and IT policy | Essential | On-premise deployment satisfies data governance; no external API dependency |
 | Faster procurement turnaround without cutting corners on compliance | Expected | Automation handles documentation; staff focus on review and decision |
 | Broader supplier visibility including SMEs and new entrants | Desired | Supports policy goals around supplier diversity and local sourcing |
@@ -109,7 +109,7 @@ The compliance burden is growing, not shrinking - and the documentation tools ha
 | Audit-ready documentation automatically | Auto-generated comparison report serves as complete procurement record |
 | Consistent criteria application | Model applies the same scoring logic to every procurement decision |
 | Sustainability + CPR criteria structured and included | Configurable weighting for MVO, circularity, SROI, and CPR environmental performance |
-| Defensible, explainable recommendations | Reasoning trail with cited data sources - suitable for official review and legal defence |
+| Transparent, explainable comparison outputs | Reasoning trail with cited data sources - suitable for official review and legal defence |
 | GDPR-compliant AI | Local deployment; no data leaves municipal infrastructure |
 | Faster turnaround without compromising compliance | Automation handles documentation; staff focus on review and decision |
 | Broader supplier visibility | Enriched supplier database surfaces qualified SMEs and new entrants |
