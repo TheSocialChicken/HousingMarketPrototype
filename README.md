@@ -53,6 +53,20 @@ A fine-tuned AI procurement assistant, deployed on the client's own infrastructu
 
 ---
 
+## The Team
+
+| Person | Role | Background |
+|---|---|---|
+| **Christiaan Verhoef** | CEO / Product & Partnerships | Project Manager, Supply Chain Finance @ Windesheim University · Founded Value Chain Hackers AI lab · Co-founded Tonomy Foundation · Helped secure €2M in funding |
+| **Dr. Milan Jelisavčić** | CTO / AI Lead | PhD Evolutionary Robotics, VU Amsterdam · Head of AI @ Salesteq · Production ML at Stedin, bliq, ABN AMRO · MSc University of Belgrade |
+| **Kirsten Coppoolse** | COO / Operations | COO @ Open Food Chain 2018–2024 · Scaled from first employee to 20+ people · Doubled revenue every year for 6 years |
+| **Dr. Nina Gluhović** | Domain Expert / Research | Assistant Professor, Faculty of Civil Engineering, University of Belgrade · PhD Structural Engineering · 12 years in civil engineering academia |
+| **Gerard Tunteler** | Head of Government Sales | Local Government Lead Netherlands @ HPE (19 years) · Founder of HPE Roundtable for Municipalities · Direct relationships across all 342 Dutch municipalities |
+
+**Institutional anchors:** Windesheim University of Applied Sciences (NL) · University of Belgrade, Faculty of Civil Engineering (Serbia)
+
+---
+
 ## Business Planning Documents
 
 | Document | Description |
@@ -66,9 +80,13 @@ A fine-tuned AI procurement assistant, deployed on the client's own infrastructu
 | [VP — Material Supplier](business/value-propositions/vpc-e-material-supplier.md) | Data partner / V2 supplier tier |
 | [Shared Value Map](business/value-propositions/shared-value-map.md) | What we offer — constant across all segments |
 | [Market Sizing](business/market-sizing.md) | TAM/SAM/SOM with sources |
+| [Team Canvas](business/team.md) | Full team profiles, capability matrix, and gap analysis |
 
 ---
 
 ## Status
 
 Early stage — market research and business planning phase. No product built yet.
+
+### Open Tasks
+- [ ] Draft co-founder agreement (equity, decision rights, vesting, exit terms)
