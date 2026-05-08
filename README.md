@@ -81,19 +81,25 @@ A fine-tuned AI procurement assistant, deployed on the client's own infrastructu
 | [Shared Value Map](business/value-propositions/shared-value-map.md) | What we offer — constant across all segments |
 | [Market Sizing](business/market-sizing.md) | TAM/SAM/SOM with sources |
 | [Team Canvas](business/team.md) | Full team profiles, capability matrix, and gap analysis |
+| [Team Cooperation Guide](business/team-cooperation.md) | Per-person collaboration profiles, key pairings, decision rights, red flags |
 | [Grant Opportunities](business/grants.md) | MIT R&D AI (urgent), KIEM, RAAK-PRO, Horizon Europe — with fit analysis and recommended sequence |
 | [Competitive Landscape](business/competitive-landscape.md) | Player profiles, differentiation matrix, competitive white space, and risks |
+| [Financial Model](business/financial-model.md) | 3-year P&L, revenue build, cost structure, cash/runway, key metrics |
+| [Investor Pitch Deck](business/pitch-deck.md) | 10-slide Pinvidic WHAC deck — also available as [pitch-deck.pptx](business/pitch-deck.pptx) |
 
 ---
 
 ## Status
 
-Early stage — market research and business planning phase. No product built yet.
+Early stage — business planning phase complete. No product built yet.
 
 ### Open Tasks
 - [ ] Draft co-founder agreement (equity, decision rights, vesting, exit terms)
 - [ ] Design procurement simulation workshop programme (pre-product revenue + customer discovery)
-- [ ] Qualify Züblin (via Milan) as grant industry partner and potential pilot client — Züblin contact confirmed in Procurement
-- [ ] Competitive landscape analysis
-- [ ] Build 3-year financial model (pre-product + product phases)
-- [ ] Build investor/grant pitch deck
+- [ ] Qualify Züblin (via Milan) as grant industry partner and potential pilot client — Dusko Stojanovic (Project Lead Bid Processing, ZÜBLIN Stuttgart) confirmed as insider contact
+- [ ] ⚠️ Submit MIT R&D AI grant before May 26, 2026 — needs SME co-applicant (not ZÜBLIN — too large)
+
+### Completed
+- [x] Competitive landscape analysis
+- [x] Build 3-year financial model
+- [x] Build investor/grant pitch deck
