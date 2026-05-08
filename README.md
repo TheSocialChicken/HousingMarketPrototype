@@ -79,6 +79,7 @@ A fine-tuned AI procurement assistant, deployed on the client's own infrastructu
 | [VP — Project Developer](business/value-propositions/vpc-d-project-developer.md) | Tertiary segment |
 | [VP — Material Supplier](business/value-propositions/vpc-e-material-supplier.md) | Data partner / V2 supplier tier |
 | [Shared Value Map](business/value-propositions/shared-value-map.md) | What we offer — constant across all segments |
+| [Stakeholder Map](business/stakeholder-map.md) | All stakeholder types — roles, open questions, review checklist |
 | [Market Sizing](business/market-sizing.md) | TAM/SAM/SOM with sources |
 | [Team Overview](business/team/overview.md) | Capability matrix, gap analysis, investor narrative |
 | [Team — Core](business/team/core/) | Christiaan, Milan, Kirsten, Nina — individual profiles |
@@ -100,7 +101,7 @@ Early stage — business planning phase complete. No product built yet.
 - [ ] Design procurement simulation workshop programme (pre-product revenue + customer discovery)
 - [ ] Qualify Züblin (via Milan) as grant industry partner and potential pilot client — Dusko Stojanovic (Project Lead Bid Processing, ZÜBLIN Stuttgart) confirmed as insider contact
 - [ ] ⚠️ Submit MIT R&D AI grant before May 26, 2026 — needs SME co-applicant (not ZÜBLIN — too large)
-- [ ] Review and complete stakeholder map — candidates not yet documented: auditors/certification bodies (Kiwa, TÜV), trucking/logistics companies, material component manufacturers (as customer, not just data partner), CO₂/sustainability bodies; add value proposition canvases for any confirmed segments
+- [ ] Review and complete stakeholder map — see [stakeholder-map.md](business/stakeholder-map.md) for full context on each candidate (auditors/certification bodies, trucking/logistics, material manufacturers, CO₂ and sustainability bodies); decide role for each and create VPCs for confirmed new segments
 
 ### Completed
 - [x] Competitive landscape analysis
