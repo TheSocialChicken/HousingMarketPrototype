@@ -15,16 +15,17 @@ See entry below. This is the only currently open deadline. Evaluate immediately.
 
 | Grant | Amount | Fit | Deadline | Lead applicant |
 |---|---|---|---|---|
-| **MIT R&D Samenwerkingsprojecten AI** | 35% of costs, max €350K | ★★★★☆ | **26 May 2026** | SME (startup) |
-| **KIEM Arbeidsbesparende AI** | max €40K | ★★★★☆ | 15 Sep 2026 | Windesheim |
-| **RAAK-PRO** | max €700K | ★★★★★ | Next round TBC | Windesheim |
-| **Horizon Europe Cluster 4** | €2–5M+ | ★★★☆☆ | Rolling / 2026–2027 | Consortium |
-| **Subsidie Beter Aanbesteden** | €10–25K | ★★★☆☆ | Check if active | Municipality |
+| [MIT R&D Samenwerkingsprojecten AI](https://www.rvo.nl/subsidies-financiering/mit/rd-samenwerkingsprojecten-ai) | 35% of costs, max €350K | ★★★★☆ | **26 May 2026** | SME (startup) |
+| [KIEM Arbeidsbesparende AI](https://regieorgaan-sia.nl/financiering/kiem/) | max €40K | ★★★★☆ | 15 Sep 2026 | Windesheim |
+| [RAAK-PRO](https://www.nwo.nl/calls/raak-pro) | max €700K | ★★★★★ | Next round TBC | Windesheim |
+| [Horizon Europe Cluster 4](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/calls-for-proposals?frameworkProgramme=43108390) | €2–5M+ | ★★★☆☆ | Rolling / 2026–2027 | Consortium |
+| [Subsidie Beter Aanbesteden](https://www.rijksoverheid.nl/onderwerpen/aanbesteden/beter-aanbesteden) | €10–25K | ★★★☆☆ | Check if active | Municipality |
 
 ---
 
 ## 1. MIT R&D Samenwerkingsprojecten AI
-> **Source:** [RVO.nl](https://www.rvo.nl/subsidies-financiering/mit/rd-samenwerkingsprojecten-ai)
+
+**→ [https://www.rvo.nl/subsidies-financiering/mit/rd-samenwerkingsprojecten-ai](https://www.rvo.nl/subsidies-financiering/mit/rd-samenwerkingsprojecten-ai)**
 
 **Amount:** 35% of eligible costs · max **€200,000** (small project) or **€350,000** (large project)
 **Total budget available:** €3,550,000
@@ -50,7 +51,8 @@ See entry below. This is the only currently open deadline. Evaluate immediately.
 ---
 
 ## 2. KIEM Arbeidsbesparende AI
-> **Source:** [Regieorgaan SIA](https://regieorgaan-sia.nl/financiering/kiem/)
+
+**→ [https://regieorgaan-sia.nl/financiering/kiem/](https://regieorgaan-sia.nl/financiering/kiem/)**
 
 **Amount:** max **€40,000** (project total ~€50,000 incl. co-funding)
 **Deadline:** September 15, 2026 (14:00 CEST) — next available round
@@ -76,7 +78,9 @@ See entry below. This is the only currently open deadline. Evaluate immediately.
 ---
 
 ## 3. RAAK-PRO
-> **Source:** [NWO / Regieorgaan SIA](https://www.nwo.nl/calls/raak-pro) · [Call for proposals Oct 2024](https://www.nwo.nl/sites/nwo/files/media-files/Call%20for%20proposals%20RAAK-PRO%20oktober%202024.pdf)
+
+**→ [https://www.nwo.nl/calls/raak-pro](https://www.nwo.nl/calls/raak-pro)**
+**→ Call for proposals (PDF): [RAAK-PRO oktober 2024](https://www.nwo.nl/sites/nwo/files/media-files/Call%20for%20proposals%20RAAK-PRO%20oktober%202024.pdf)**
 
 **Amount:** max **€700,000**
 **Last deadline:** March 3, 2026 (passed) — next round TBC, typically every 2 years
@@ -111,7 +115,8 @@ See entry below. This is the only currently open deadline. Evaluate immediately.
 ---
 
 ## 4. Horizon Europe — Cluster 4: Digital, Industry and Space
-> **Source:** [EU Funding & Tenders Portal](https://ec.europa.eu/info/funding-tenders/opportunities/portal/)
+
+**→ [https://ec.europa.eu/info/funding-tenders/opportunities/portal/](https://ec.europa.eu/info/funding-tenders/opportunities/portal/)**
 
 **Amount:** Typically €2–5M+ per project
 **Timeline:** 2026–2027 work programme; rolling calls
@@ -134,7 +139,9 @@ See entry below. This is the only currently open deadline. Evaluate immediately.
 ---
 
 ## 5. Subsidie Beter Aanbesteden
-> **Source:** [Rijksoverheid](https://www.rijksoverheid.nl/onderwerpen/aanbesteden/beter-aanbesteden) · [VNG](https://vng.nl/nieuws/ook-in-2023-subsidieregeling-beter-aanbesteden)
+
+**→ [https://www.rijksoverheid.nl/onderwerpen/aanbesteden/beter-aanbesteden](https://www.rijksoverheid.nl/onderwerpen/aanbesteden/beter-aanbesteden)**
+**→ VNG (2023 edition): [https://vng.nl/nieuws/ook-in-2023-subsidieregeling-beter-aanbesteden](https://vng.nl/nieuws/ook-in-2023-subsidieregeling-beter-aanbesteden)**
 
 **Amount:** €10,000–€25,000
 **Last confirmed active:** 2023 — check if 2026 edition is available
