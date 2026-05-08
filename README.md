@@ -80,8 +80,10 @@ A fine-tuned AI procurement assistant, deployed on the client's own infrastructu
 | [VP — Material Supplier](business/value-propositions/vpc-e-material-supplier.md) | Data partner / V2 supplier tier |
 | [Shared Value Map](business/value-propositions/shared-value-map.md) | What we offer — constant across all segments |
 | [Market Sizing](business/market-sizing.md) | TAM/SAM/SOM with sources |
-| [Team Canvas](business/team.md) | Full team profiles, capability matrix, and gap analysis |
-| [Team Cooperation Guide](business/team-cooperation.md) | Per-person collaboration profiles, key pairings, decision rights, red flags |
+| [Team Overview](business/team/overview.md) | Capability matrix, gap analysis, investor narrative |
+| [Team — Core](business/team/core/) | Christiaan, Milan, Kirsten, Nina — individual profiles |
+| [Team — Advisors](business/team/advisors/) | Gerard Tunteler, Dusko Stojanovic — individual profiles |
+| [Team Cooperation Guide](business/team/cooperation.md) | Per-person collaboration profiles, key pairings, decision rights, red flags |
 | [Grant Opportunities](business/grants.md) | MIT R&D AI (urgent), KIEM, RAAK-PRO, Horizon Europe — with fit analysis and recommended sequence |
 | [Competitive Landscape](business/competitive-landscape.md) | Player profiles, differentiation matrix, competitive white space, and risks |
 | [Financial Model](business/financial-model.md) | 3-year P&L, revenue build, cost structure, cash/runway, key metrics |
