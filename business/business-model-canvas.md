@@ -1,5 +1,5 @@
 # Business Model Canvas
-> AI-Powered Construction Procurement - v0.5 | Last updated: 2026-05-08
+> AI-Powered Construction Procurement - v0.6 | Last updated: 2026-05-08
 
 ---
 
@@ -13,8 +13,13 @@
 - Warehouse and inventory teams
 
 ### Organisational buyers
-- Mid-size construction companies
-- Large construction or infrastructure organisations (enterprise tier - higher data sovereignty needs)
+- Mid-size construction companies (50-500 employees) - fastest sales cycle, clearest ROI on procurement admin
+- Dutch municipalities - compliance driver, 342 identical buyers; one reference unlocks many
+- Large construction or infrastructure organisations (enterprise tier - higher data sovereignty needs; V2)
+
+### Named prospects (pre-LOI)
+- **ED. Züblin AG (STRABAG)** - insider contact: Dusko Stojanovic, Project Lead Bid Processing, Stuttgart. Practitioner of exactly what the product supports. Entry point: pilot client (Segment A/C) and/or grant industry partner.
+- Dutch municipalities via Gerard Tunteler's HPE Ronde Tafel voor Gemeenten relationships (342 municipalities, direct access)
 
 > Universities and research partners (Windesheim, Belgrade) are **Key Partners**, not customer segments. They provide accreditation, validation, and grant access.
 
@@ -26,7 +31,8 @@
 - On-premise deployment - company data never leaves the client environment
 - Fine-tuned model on client's own procurement and supplier data → domain-specific accuracy, fewer errors than a generic model
 - Continuous improvement - each procurement cycle adds to the model's understanding of the client's specific supplier base, material categories, and past decisions; the model gets smarter over time without extra effort from the client
-- Proprietary model per client = switching cost and competitive lock-in
+- Switching cost is structural: the fine-tuned model encodes the client's institutional procurement knowledge (preferred suppliers, historical decisions, material standards). Migrating to a competitor means rebuilding that knowledge from scratch. The moat is the accumulated data and domain training, not the software itself.
+- Fine-tuning quality depends on construction domain depth - understanding Dutch specification standards (CROW RAW chapters, UAV conditions, CPR 2024 product categories, KOMO and SKG-IKOB certification structures). This is Nina's expertise and is not replicable by a generic AI vendor without equivalent domain knowledge.
 - Potential for lightweight edge deployment (mobile subagents for field purchasing)
 
 ### Design philosophy: decision support, not autonomous AI
@@ -104,7 +110,7 @@
 
 > **No subscription in the default model.** The client owns the deployed system completely. Maintenance and retraining are purchased because they are genuinely useful - not because they are required for the system to function. This removes vendor dependency, simplifies the legal profile (no data processing agreement needed), and fits how municipalities and construction companies already procure enterprise software: as implementations, not SaaS.
 
-> **Strategic note on workshops:** The simulation/workshop track is not just a cashflow bridge - it is the fastest path to deeply understanding the procurement workflow problem from the inside. Every workshop delivered is a customer discovery session. Clients who go through a workshop are warm leads for the pilot. Build the workshop programme as if it's a product in its own right.
+> **Strategic note on workshops:** The simulation/workshop track solves three problems at once. (1) Revenue before the product exists. (2) Customer discovery - every workshop is a paid conversation about the procurement workflow; the scenarios participants generate are real, not hypothetical. (3) Demo data - workshop scenarios from real procurement teams produce realistic material categories, supplier structures, and decision patterns that seed the synthetic dataset used in pre-sales demos. This breaks the chicken-and-egg: a demo trained on workshop-derived scenarios is credible because it reflects real procurement logic, not fabricated data. Build the workshop programme as if it's a product in its own right.
 
 ---
 
@@ -113,8 +119,9 @@
 ### Data
 - Client's own ERP and procurement history (brought in during onboarding)
 - **Minimum viable dataset: [TBD] months of procurement history** - threshold at which fine-tuning demonstrably outperforms a general model; qualify prospects against this
-- Publicly scraped subsupplier data (locations, capacity, lead times, certifications) - public sources only, GDPR-compliant
-- Simulated/synthetic procurement datasets for demo and pre-sales purposes
+- Publicly available supplier data from structured registries: KvK (Chamber of Commerce), certification body registers (KOMO, SKG-IKOB, Kiwa, BRL scheme registers), and open government datasets. These are designed for public use and carry no database rights risk.
+- **Legal note on scraping:** "Publicly accessible" is not the same as "legally usable." EU Directive 96/9/EC grants sui generis database rights to any database requiring substantial investment - supplier catalogues, proprietary certification lists, and product spec sheets qualify. The data strategy relies on structured public registries and supplier-submitted data, not wholesale scraping of supplier websites. Legal review required before any automated data collection beyond KvK and certification body APIs.
+- Simulated/synthetic procurement datasets for demo and pre-sales purposes - generated from Nina's domain knowledge and Christiaan's workshop scenarios to be realistic enough to demonstrate spec matching on real Dutch material categories
 - Material specifications and certification data
 - Supplier reliability signals
 - Future: structured supplier data via supplier-side AI or API integrations
@@ -126,7 +133,8 @@
 - Comparison and scoring framework
 
 ### Human / domain
-- Procurement expertise and construction materials domain knowledge
+- **Nina Gluhovic: Dutch and EU construction specification domain knowledge** - CROW RAW chapters, UAV contractual conditions, CPR 2024/3110 product categories, KOMO and SKG-IKOB certification structures, structural materials specification. This is what makes the fine-tuning accurate rather than generic. A horizontal AI vendor cannot replicate this without equivalent domain expertise.
+- Christiaan's procurement workflow and simulation expertise - shapes how the tool fits actual procurement processes
 - Procurement workflow templates
 - User feedback loop from purchasing teams
 
@@ -142,7 +150,7 @@
 - Customer discovery and procurement workflow mapping
 - Client data ingestion, cleaning, and standardisation
 - **Determining and validating the minimum training data threshold** (research activity - outcome feeds product qualification and pitch)
-- Scraping publicly available subsupplier data (GDPR-compliant)
+- Collecting supplier data from structured public registries (KvK, certification body registers) - scoped to sources with clear legal basis
 - Fine-tuning AI model on client-specific procurement data
 - Synthetic dataset generation for demos and pre-sales
 - Local model deployment and infrastructure setup
@@ -195,9 +203,9 @@
 | Decision | Rationale |
 |----------|-----------|
 | Local / on-premise deployment as core product | Data sovereignty, reduced hallucination, client lock-in |
-| Fine-tuned model per client | Domain accuracy + switching cost moat |
-| Data = client ERP + publicly scraped subsupplier data | Solves data sourcing gap; client owns their data; GDPR-compliant |
-| Synthetic data for demos | Removes blocker to pre-sales; lets prospects see value before committing their data |
+| Fine-tuned model per client | Domain accuracy + switching cost. The moat is Nina's Dutch construction domain expertise making the fine-tuning accurate - not the fine-tuning mechanism itself, which any competitor could copy. Domain depth is the differentiator. |
+| Data = client ERP + structured public registries (KvK, certification body registers) | Solves data sourcing gap without database rights exposure; client owns their data; legally grounded |
+| Synthetic data for demos seeded by workshop scenarios | Workshops generate real procurement logic (material categories, supplier structures) that make the synthetic demo credible; breaks the chicken-and-egg between needing client data to demo and needing a demo to get client data |
 | Minimum training data threshold (TBD) | Qualifies prospects, sets expectations, becomes a credibility argument in pitch |
 | Simulation/workshop programme as pre-product revenue | Generates cashflow before product is built; customer discovery in disguise; warms leads for the AI pitch |
 | Züblin as named grant partner | Provides the industry partner slot required for RAAK-PRO and Horizon Europe applications; also a potential large pilot client |
@@ -207,13 +215,24 @@
 
 ---
 
-## Open Questions
+## Resolved Decisions
 
-1. **Segment priority:** Mid-size construction companies first (faster sales cycle) or large/enterprise (bigger deal size, more data)? Recommend starting with mid-size for product-market fit, then enterprise.
-2. **Minimum training data threshold [research required]:** How much procurement history (orders, suppliers, materials) must a client provide before fine-tuning produces measurably better results than a general model? This number becomes a prospect qualification criterion and a pitch credibility argument: *"Give us X months of your data and we'll build a model that outperforms any generic AI on your specific materials."*
-3. **ERP integration:** Which ERP systems are most common in your target construction companies (e.g. SAP, Exact, Unit4)? Determines integration priority and partner channel.
-4. **Supplier-side AI timeline:** When is it realistic to integrate with suppliers who have their own AI or API? Likely a v2 feature; define what "supplier-side AI" means concretely.
-5. **Mobile/edge timeline:** Is the phone-based subagent a v1 feature or a future roadmap item? Affects model size and architecture choices now.
-6. **Grant strategy:** Züblin as named industry partner unlocks RAAK-PRO (requires HBO + industry partner). Horizon Europe bilateral NL–Serbia track is realistic with Windesheim + Belgrade. NWO-KIEM is a lighter entry point. Prioritise which to apply for first.
-7. **Züblin relationship:** What is Milan's contact's role at Züblin? Procurement, IT, or innovation? This determines whether the entry point is a pilot client, a grant co-applicant, or both.
-8. **Simulation/workshop programme design:** What does the procurement simulation look like? It should make the cost of bad procurement viscerally obvious - like the Beer Game does for the bullwhip effect. A 2–4 hour workshop format with a debrief selling the AI solution naturally.
+| Decision | Resolution |
+|----------|------------|
+| Segment priority | Mid-size construction companies (Segment A) first - fastest sales cycle (1-3 months), clearest ROI. Municipalities (Segment B) in parallel where Gerard opens the door. Enterprise (Segment C) after proof of concept. |
+| Grant priority | MIT R&D AI Samenwerkingsprojecten first (deadline May 26, 2026 - needs SME co-applicant). KIEM Arbeidsbesparende AI in Sep 2026. RAAK-PRO only once product is live with a pilot reference. |
+| Supplier-side AI / edge deployment | V2 features. Not on the V1 roadmap. |
+
+---
+
+## Customer Discovery Action Plan
+
+These are not open questions - they are assumptions that need to be validated in the next 10 customer discovery conversations. Conversations to be led by Christiaan (construction segment) and Gerard (municipality segment).
+
+| Assumption to validate | How to test | Target |
+|------------------------|-------------|--------|
+| Minimum training data threshold: how much ERP history is enough for fine-tuning to beat a generic model? | Ask procurement managers how many years of structured order data they have; test with Milan on a sample dataset | Answer in hand before first pilot scoping |
+| ERP systems in target construction companies: Exact Online, SAP, Unit4, or other? | Ask in discovery calls - "what does your procurement data live in?" | Determines integration priority; Exact Online most likely for NL mid-size |
+| Willingness to pay for a scoped pilot before full implementation | Present a pilot proposal in discovery call and ask for a conditional yes | 3 signed LOIs or pilot agreements by [target date] |
+| Züblin as pilot client: Dusko Stojanovic's role and procurement pain | Christiaan + Milan meeting with Dusko to qualify - is the entry point a pilot, a grant co-application, or both? | Meeting held, role and interest confirmed |
+| Workshop format: does a 2-4 hour procurement simulation make the cost of bad procurement viscerally obvious? | Run a first pilot workshop with a willing construction company and debrief | First workshop delivered; warm lead for pilot generated |
