@@ -14,7 +14,27 @@
 | **Core** | Supply chain, AI infra, Windesheim anchor | PhD AI/Robotics, production ML | COO, startup scaling | PhD Structural Engineering, Belgrade University | 32 years HPE, 19 years NL local government lead |
 | **Prior link** | — | Belgrade University MSc | Open Food Chain + inblock.io | Belgrade University academic partner | HPE Roundtable for Municipalities |
 
-> This is not a cold team. Christiaan and Kirsten have worked together before. Milan and Nina connect through the University of Belgrade. Gerard brings 19 years of direct relationships with Dutch municipalities — including the HPE Roundtable he founded. Five people, two institutional anchors (Windesheim NL + Belgrade Serbia), and a direct line into every municipality in the Netherlands.
+> This is not a cold team. Christiaan and Kirsten have worked together before — and are partners. Milan and Nina both connect through the University of Belgrade — and are partners. Gerard brings 19 years of direct relationships with Dutch municipalities. Five people, two institutional anchors (Windesheim NL + Belgrade Serbia), and a direct line into every municipality in the Netherlands.
+
+### Team Relationship Dynamics
+
+Two of the five team members are couples: Christiaan & Kirsten, and Milan & Nina. This is worth addressing directly rather than leaving to discovery.
+
+**Strengths:**
+- Very high trust between co-founders — no political friction, aligned personal incentives
+- Faster decision-making within each pair under pressure
+- Both couples have prior professional working history alongside the personal relationship — this is not untested
+- Christiaan and Kirsten have already worked together at Open Food Chain and inblock.io; Milan and Nina share the University of Belgrade institution
+
+**Risks to acknowledge and mitigate:**
+- Relationship conflicts can spill into business decisions — standard co-founder tension is amplified when it's also personal
+- In a disagreement between the NL pair and the Serbia pair, the dynamic could become 2v2 with no neutral tie-breaker — Gerard as the fifth independent member partially mitigates this
+- Investors and grant committees will notice and ask — better to have a clear answer ready
+
+**Mitigation:**
+- Clear documented roles and decision rights (Christiaan: product/vision; Milan: technical; Kirsten: operations; Nina: domain/research) reduce the surface area for overlap and conflict
+- Gerard as an independent fifth member provides a neutral voice when needed
+- A co-founder agreement that separates business and personal obligations is standard practice and especially important here
 
 ---
 
