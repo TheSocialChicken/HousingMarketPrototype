@@ -113,14 +113,29 @@ A fine-tuned AI procurement assistant, deployed on the client's own infrastructu
 Early stage - business planning phase complete. No product built yet.
 
 ### Open Tasks
-- [ ] Draft co-founder agreement (equity, decision rights, vesting, exit terms)
-- [ ] Design procurement simulation workshop programme (pre-product revenue + customer discovery)
-- [ ] Qualify Züblin (via Milan) as grant industry partner and potential pilot client - Dusko Stojanovic (Project Lead Bid Processing, ZÜBLIN Stuttgart) confirmed as insider contact
+
+#### Urgent
 - [ ] ⚠️ Submit MIT R&D AI grant before May 26, 2026 - needs SME co-applicant (not ZÜBLIN - too large)
-- [ ] Review and complete stakeholder map - see [stakeholder-map.md](business/stakeholder-map.md) for full context on each candidate (auditors/certification bodies, trucking/logistics, material manufacturers, CO₂ and sustainability bodies); decide role for each and create VPCs for confirmed new segments
+
+#### Business development
+- [ ] Run 10 customer discovery conversations to validate BMC assumptions - segment priority, minimum ERP data threshold, which ERP systems (Exact Online likely for NL mid-size), willingness to pay for a scoped pilot - see [business-model-canvas.md](business/business-model-canvas.md) Customer Discovery Action Plan
+- [ ] Get 3 signed LOIs or pilot agreements from construction companies - this is the single highest-leverage action; closes the "no named customers" gap for investors and grant applications
+- [ ] Qualify Züblin (via Milan + Dusko Stojanovic) - is the entry point a pilot client, a grant co-applicant, or both? Meeting needed to confirm role and interest
+- [ ] Design procurement simulation workshop programme - first workshop is the pre-sales proof of concept and seeds the demo dataset; see business-model-canvas.md strategic note
+
+#### Legal / technical
+- [ ] Legal review of data collection approach - "publicly scraped data" carries database rights risk under EU Directive 96/9/EC; confirm scope is limited to KvK, certification body registers (KOMO, SKG-IKOB, Kiwa), and supplier-submitted data before any automated collection
+
+#### Agreements and structure
+- [ ] Draft co-founder agreement (equity, decision rights, vesting, exit terms)
+
+#### Product and marketing
 - [ ] Build basic website on GitHub Pages - public-facing presence with the general pitch, problem/solution, team, and contact
+- [ ] Review and complete stakeholder map - see [stakeholder-map.md](business/stakeholder-map.md) for full context on each candidate (auditors/certification bodies, trucking/logistics, material manufacturers, CO₂ and sustainability bodies); decide role for each and create VPCs for confirmed new segments
 
 ### Completed
-- [x] Competitive landscape analysis
+- [x] Competitive landscape analysis (includes Onventis as Benelux-active competitor)
 - [x] Build 3-year financial model
 - [x] Build investor/grant pitch deck
+- [x] Sharpen AI framing across all documents (fine-tuned process tool; human reviews and decides; comparison output not recommendation)
+- [x] Business model canvas v0.6 - moat, legal data position, named prospects, customer discovery action plan
