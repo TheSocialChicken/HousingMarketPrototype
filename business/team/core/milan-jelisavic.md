@@ -1,6 +1,12 @@
 # Dr. Milan Jelisavčić - CTO / AI Lead
 > AI-Powered Construction Procurement | Last updated: 2026-05-08
 
+## Elevator Pitch
+
+Milan Jelisavčić is the CTO. He holds a PhD in Evolutionary Robotics from VU Amsterdam - which means his technical foundation is precisely in the optimization and adaptive systems at the core of what we are building. He has shipped production ML at Stedin, bliq, and ABN AMRO, and currently leads AI product development at AND Digital. He knows the gap between research and working software because he has closed it, repeatedly, in industries that do not forgive mistakes - power grids and financial services. His PhD in evolutionary algorithms is directly applicable to the optimization architecture we are developing for construction procurement. He is the technical co-founder who has done this before.
+
+---
+
 **MBTI:** INTJ-A · **Location:** Amsterdam, Netherlands · **Partner of:** Nina
 
 **Current roles:** AI Product Developer @ AND Digital · Head of Artificial Intelligence @ Salesteq Inc.

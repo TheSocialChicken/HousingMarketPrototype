@@ -1,6 +1,12 @@
 # Kirsten Coppoolse - COO / Operations
 > AI-Powered Construction Procurement | Last updated: 2026-05-08
 
+## Elevator Pitch
+
+Kirsten Coppoolse is the COO. She joined Open Food Chain as the first employee and ran operations through six consecutive years of doubled revenue, ending with a team of 20. She has built the organisational, financial, and compliance structure of a scaling tech startup before - not as a theory, as a track record. Her background includes compliance management and partial legal training, which matters directly for a product targeting municipalities where every procurement decision has to be legally defensible. She and Christiaan have worked together before, which means no friction, no unknowns, and no time wasted establishing trust at the moment it is most needed.
+
+---
+
 **MBTI:** ENFJ-A · **Location:** Baarn, Netherlands · **Partner of:** Christiaan
 
 **Education:** Master's Religion & Identity, UvA (2016–2017) · Master's Art & Cultural Studies, VU Amsterdam (2011–2013) · LLB (partial), UvA (2007–2008)
