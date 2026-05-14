@@ -233,6 +233,25 @@ These are not open questions - they are assumptions that need to be validated in
 |------------------------|-------------|--------|
 | Minimum training data threshold: how much ERP history is enough for fine-tuning to beat a generic model? | Ask procurement managers how many years of structured order data they have; test with Milan on a sample dataset | Answer in hand before first pilot scoping |
 | ERP systems in target construction companies: Exact Online, SAP, Unit4, or other? | Ask in discovery calls - "what does your procurement data live in?" | Determines integration priority; Exact Online most likely for NL mid-size |
+| Full software stack beyond ERP: what procurement tools, supplier portals, approval workflows, and document management systems do they already use? | Map the full tool stack in every discovery call - "walk me through how a procurement decision gets made, start to finish, and what software you touch" | Stack map for at least 5 companies before product scoping begins |
+| AI layer vs. new deployment: would procurement teams prefer an AI capability added to their existing software over a new locally deployed system? | Ask directly - "if your current ERP could do this, would you prefer that over a separate tool?" | Determines whether the product is a standalone or an integration/plugin |
+| Who is the actual end user vs. the buyer: does the procurement manager doing the daily work want this, or only the manager above them? | In discovery calls, speak to both levels separately - the procurement manager and their direct superior | Do not sign a pilot without having spoken directly to the person who will use the system daily |
+| Real sales cycle length: how long does it actually take a mid-size construction company to evaluate and adopt new procurement software? | Ask about the last time they adopted a new digital tool - "how long did that take from first conversation to go-live?" | Adjust financial model runway assumptions if answer is consistently above 6 months |
+| Entry point scope: is bid comparison / supplier evaluation the right single starting problem, or is there a more painful, more bounded entry point? | Ask "what is the single most painful moment in your procurement week?" - listen for what comes first, unprompted | Identify one specific workflow before scoping the pilot |
 | Willingness to pay for a scoped pilot before full implementation | Present a pilot proposal in discovery call and ask for a conditional yes | 3 signed LOIs or pilot agreements by [target date] |
 | Züblin as pilot client: Dusko Stojanovic's role and procurement pain | Christiaan + Milan meeting with Dusko to qualify - is the entry point a pilot, a grant co-application, or both? | Meeting held, role and interest confirmed |
 | Workshop format: does a 2-4 hour procurement simulation make the cost of bad procurement viscerally obvious? | Run a first pilot workshop with a willing construction company and debrief | First workshop delivered; warm lead for pilot generated |
+
+---
+
+## Critical Open Challenges (raised 2026-05-14)
+
+These are structural risks raised by Kirsten Coppoolse that are not yet resolved. They must be addressed before the first pilot agreement is signed.
+
+| Challenge | What is at stake | Owner | Status |
+|---|---|---|---|
+| **Liability for AI recommendations** | If the system recommends a supplier that fails - wrong material, late delivery, uncertified product - who is legally responsible? The product, the company, or the procurement manager who approved it? "The human decides" is a design principle, not a legal answer. | Christiaan + legal counsel | Open - legal review required |
+| **Data boundary and security** | What data does the system actually touch? ERP procurement history, supplier contacts, order values, contract terms - some of this is commercially sensitive, some may be personal data under GDPR. A data boundary document does not exist. | Milan + Kirsten | Open - define before any pilot data ingestion |
+| **User adoption vs. buyer adoption** | The buyer (management) and the user (the procurement manager in the spreadsheet) are different people. The buyer may approve it; the user may resist it. Construction industry moves slowly; end users are often experienced practitioners who have worked the same way for decades. Change management is not addressed in the product or go-to-market plan. | Christiaan + Kirsten | Open - requires user-level discovery conversations |
+| **Sales cycle realism** | The financial model assumes 1-3 month sales cycles for mid-size construction. This may be optimistic for an industry known for slow technology adoption. If cycles are 6-12 months, runway calculations change materially. | Kirsten + Christiaan | Open - validate in discovery calls |
+| **Scope discipline** | The current product scope covers supplier comparison, certification tracking, and audit reporting. There is a risk of expanding into the full supply chain before proving value in one narrow workflow. The entry point should be one specific pain, proved end-to-end, before expansion. | Milan + Christiaan | Open - define MVP scope explicitly |

@@ -150,18 +150,25 @@ Early stage - business planning phase complete. No product built yet.
 - [ ] ⚠️ Submit MIT R&D AI grant before May 26, 2026 - needs SME co-applicant (not ZÜBLIN - too large)
 
 #### Business development
-- [ ] Run 10 customer discovery conversations to validate BMC assumptions - segment priority, minimum ERP data threshold, which ERP systems (Exact Online likely for NL mid-size), willingness to pay for a scoped pilot - see [business-model-canvas.md](business/business-model-canvas.md) Customer Discovery Action Plan
+- [ ] Run 10 customer discovery conversations - expanded scope: ERP stack, full software stack beyond ERP, who is the end user vs. the buyer, real sales cycle length, preferred entry point problem - see [business-model-canvas.md](business/business-model-canvas.md) Customer Discovery Action Plan
+- [ ] In every discovery call: speak to the procurement manager doing the daily work, not only their manager - do not sign a pilot without having confirmed the end user wants this, not just the buyer above them
+- [ ] Map the full software stack of at least 5 target companies before product scoping begins - procurement tools, supplier portals, approval workflows, document management; assess whether an AI layer on existing software is more viable than a new deployment
 - [ ] Get 3 signed LOIs or pilot agreements from construction companies - this is the single highest-leverage action; closes the "no named customers" gap for investors and grant applications
 - [ ] Qualify Züblin (via Milan + Dusko Stojanovic) - is the entry point a pilot client, a grant co-applicant, or both? Meeting needed to confirm role and interest
 - [ ] Design procurement simulation workshop programme - first workshop is the pre-sales proof of concept and seeds the demo dataset; see business-model-canvas.md strategic note
 
 #### Legal / technical
 - [ ] Legal review of data collection approach - "publicly scraped data" carries database rights risk under EU Directive 96/9/EC; confirm scope is limited to KvK, certification body registers (KOMO, SKG-IKOB, Kiwa), and supplier-submitted data before any automated collection
+- [ ] ⚠️ Legal review of liability - if the system recommends a supplier that causes a procurement failure, who is legally responsible? "The human decides" is a design principle, not a legal answer; requires counsel before any pilot agreement is signed
+- [ ] Define data boundary document - what data does the system touch, what is its sensitivity classification (commercially sensitive, personal data under GDPR), and what are the access controls; must exist before any client data is ingested
 
 #### Agreements and structure
 - [ ] Draft co-founder agreement (equity, decision rights, vesting, exit terms)
 
 #### Product and marketing
+- [ ] Define MVP scope explicitly - identify one specific workflow (likely bid comparison) to prove end-to-end before expanding; do not allow scope to grow into the full supply chain before the entry point is validated
+- [ ] Build change management approach into the pilot design - the end user (procurement manager) may resist the system even if management buys it; plan for onboarding, training, and internal champion identification from day one
+- [ ] Validate financial model sales cycle assumptions - if discovery calls consistently show cycles above 6 months, runway calculations need adjustment before next funding conversation
 - [ ] Build basic website on GitHub Pages - public-facing presence with the general pitch, problem/solution, team, and contact
 - [ ] Review and complete stakeholder map - see [stakeholder-map.md](business/stakeholder-map.md) for full context on each candidate (auditors/certification bodies, trucking/logistics, material manufacturers, CO₂ and sustainability bodies); decide role for each and create VPCs for confirmed new segments
 
