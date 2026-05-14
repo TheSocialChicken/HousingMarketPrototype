@@ -4,6 +4,16 @@ A locally deployed, fine-tuned AI assistant that helps construction procurement 
 
 ---
 
+## Pitches to Join the Team
+
+**For Milan**
+Construction procurement is a multi-variable optimization problem nobody has formally solved. You have N suppliers, each with M attributes - price, delivery time, certification status, reliability, lead time variability. You have hard constraints (must hold KOMO certification, must deliver within 6 weeks) and soft objectives that need to be weighted against each other. The current state of the art in the industry is a spreadsheet and a procurement manager's gut. Linear programming finds the global optimal for standard cases. Evolutionary algorithms handle the NP-hard variants - multi-project allocation, competing material categories, dynamic supplier capacity. You wrote your PhD on evolutionary robotics. You ran energy arbitrage at Bliq using optimization that found the global optimal 100% of cases. This is the same class of problem, applied to a domain that has never had a proper decision engine. The interesting part: the objective function is not given. Nobody in construction procurement has formally defined what "optimal supplier" means across all the relevant dimensions. That is the research problem. Defining it, validating it with real procurement managers, calibrating the optimizer around it - that is the work. The data is real. The constraints are documented in Dutch certification standards that Nina can hand you. Christiaan can get you into the procurement meetings. We are not asking you to build a chatbot. We are asking you to build a decision engine for a domain that has never had one.
+
+**For Kirsten**
+Eleven hours a week. That is how long the average construction procurement manager spends on administrative comparison work - not decisions, not strategy, just digging through emails and spreadsheets to assemble a supplier comparison a manager will sign off on. In a mid-size firm with three procurement people, that is a third of your workforce's productive time, gone, every week. The regulatory pressure is making it worse - EU CPR 2024, CSRD Scope 3, the Aanbestedingswet - municipalities and construction companies now face legal documentation requirements for procurement decisions that their current processes cannot meet. They know this. They do not know what to do about it. The team is real: Milan has the technical depth, Nina has the construction domain knowledge, Gerard has a direct line into every Dutch municipality, Christiaan has the institutional anchor at Windesheim and the grant track. What it needs is someone who has actually built a company before - who can set up the financial structure, the compliance layer, the HR framework before those things become the problem. You have done this. Open Food Chain, first employee to 20 people, doubled revenue every year for six years. That track record does not exist in most founding teams. This one has it. This is not a side project - it is a company with a research anchor, a grant track, named prospects, and a market that is large, underserved, and about to be legally compelled to act. The role is COO from day one, with real ownership and a team you already trust.
+
+---
+
 ## Elevator Pitches
 
 **Networking (30 seconds)**
